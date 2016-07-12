@@ -4,7 +4,13 @@
     "repositoryName": "blog",
     "branch": "gh-pages"
   },
+  "site": {},
+  "socialnetwork": {
+    "email": "jacksonbates@hotmail.com",
+    "twitter": "jacksonbates",
+    "github": "github.com/JacksonBates"
+  },
   "theme": {
-    "name": "Casper"
+    "name": "casper"
   }
 }
