@@ -5,6 +5,7 @@
     "branch": "gh-pages"
   },
   "site": {
+    "title": "Adventures in Code",
     "disqus": "jacksonbatesme"
   },
   "socialnetwork": {
