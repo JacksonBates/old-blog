@@ -6,6 +6,7 @@
   },
   "site": {
     "title": "Adventures in Code",
+    "googleAnalytics": "UA-80704400-1",
     "disqus": "jacksonbatesme"
   },
   "socialnetwork": {
