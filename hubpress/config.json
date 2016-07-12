@@ -4,7 +4,9 @@
     "repositoryName": "blog",
     "branch": "gh-pages"
   },
-  "site": {},
+  "site": {
+    "disqus": "jacksonbatesme"
+  },
   "socialnetwork": {
     "email": "jacksonbates@hotmail.com",
     "twitter": "jacksonbates",
