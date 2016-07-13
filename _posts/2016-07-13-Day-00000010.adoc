@@ -8,4 +8,16 @@ I still had a problem to solve from yesterday: how to fix the smooth scrolling t
 
 The solution was simple, but that doesn't mean I found it straight away! You may already know that a `href='#top'` will automatically link to the top of the webpage without any explicit references to it on the page...but did you know that the link:https://css-tricks.com/snippets/jquery/smooth-scrolling/[smooth scroll] snippet I linked to yesterday _does_ require that reference on the page? Well you do now. I added `<a id="top"></a>` just under the nav bar and the smooth scrolling implemented perfectly.
 
-TIP: Read your jQuery snippets collected from the corner of the web to look for clues! 
+TIP: Read your jQuery snippets collected from the corner of the web to look for clues!
+
+=== Beginning React
+
+I'll be honest - starting React has felt pretty imposing. I think the reason I ported all my old projects over to GitHub pages and set up this blog was to postpone starting React!
+
+I'm working through the LearnCode.academy link:https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b[ReactJS Tutorials] series on YouTube.
+
+Today I got the repo cloned, got webpack working, and ran the basic 'Hello, world' stuff from the first video.
+
+== Tomorrow's coding
+
+We will see what the video series has in store, I guess. It looks like it's going to be about components - which as I understand it is the main concept in React.
