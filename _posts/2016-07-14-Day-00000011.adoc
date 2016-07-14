@@ -1,0 +1,37 @@
+= Day 00000011
+:hp-tags: css, user-agent style sheets, problem solving
+
+== Today's coding
+I've been making some progress with the React stuff, but it's been a little light on actual coding at the moment. It's mostly watching videos and confirming that the stuff the presenter says is in the video is present in the provided files.
+
+So to get a little coding fix, I took on a problem someone was having with their own webpage to see if I could fix it.
+
+=== The problem
+A page that had loaded both Bootstrap and jQuery correctly, and the same smooth scroll script I used the other day, was showing an unwanted white underline on active links during the scroll animation. The guy who wrote the original code assumed that either the Bootstrap or jQuery scripts were overwriting the style.css he wrote.
+
+I tried a few hunches out first, but kept coming up stumped. He'd already done all the right things in his style script to set the link text-decorators appropriately (or so I thought), so I tried to be a little more methodical in my debugging.
+
+=== The method
+. Load the page and open the browser inspector tools.
+
+. Select the element to examine: the About link.
+
+. Locate the right hand pane of the elements tab in the inspector (Chrome), it lists all of the styles affecting the element.
+
+. In the filter bar above, serch for the term causing issues. In this case 'underline'
+
+This was the search result:
+
+    a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+and said it was coming from the 'user-agent-stylesheet', which is the base level css used by the browser to apply default styles. Incidentally, I just learned that on a Shop Talk Show rapid fire podcast in which this exact scenario was raised. Spooky.
+
+I copied that into the style.css file and changed text-decoration to none, and it worked.
+
+Now, this fix may only work in web-kit browsers though, so to solve the issue completely, I'd likely have to test in other browsers and apply fixes with the other appropriate vendor prefixes.
+
+This was a pretty simple problem, but it taught me to be more methodological when tracking down bugs and to check each of my assumptions carefully. I assumed that the way the text-decoration was handled in the style.css would be enough, but it wasn't until I actully looked carefully at what was really happening that I could see why that assumption was wrong.
