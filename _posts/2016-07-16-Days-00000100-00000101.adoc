@@ -1,0 +1,31 @@
+# Days 00000100 && 00000101
+:hp-tags: linux, arch, antergos
+
+## The coding
+
+The last two days have been 'cheat days' of a sort. I've spent a little time helping put out spot fires on the FreeCodeCamp forums when simple issues have arisen, but the bulk of my designated coding time has been spent setting up a new Linux workspace.
+
+I've used a few distros in the past, so I was keen to try something new and to learn some new things, and thought I'd give Arch a crack.
+
+I was originally going to take the easy route and use Evo/Lution (or Makeiso, as it is called now) to install Arch (hardly the Arch Way, I know), but I was having trouble with getting it to work as a live usb. So I did try to install Arch. I made the mistake of beginning that quite late at night, though, and in the morning it had lost its appeal!
+
+Enter Antergos.
+
+I hadn't heard of Antergos before, but someone mentioned it as an easier alternative on the Melbourne FreeCodeCamp Slack channel for out meet-up group. It offered the installer approach I was looking for in Makeiso, so it seemed a slam dunk.
+
+The thing with installers, though, is that just because they provide you with a GUI and some automated scripts, it doesn't mean you don't have to know what you are doing.
+
+## The problem
+
+I muddled my way through the incredibly long installation process and everything seemed fine. I'm dual booting, so when I saw the GRUB loader menu offering Antergos and Windows 10 I assumed everything was completed.
+
+When I selected my new Linux setup, though, after a few moments of generic screen tett output I was met with a blinking, non-responsive cursor. At first I just thought it was taking a while to load and not reporting on its processes, but after a few minutes it became clear that this was my new development environment. Google and some Arch / Antergos forums informed me it was likely a problem caused by Nvidia proprietary drivers.
+
+I managed to boot up the non-desktop version with `ctrl + alt + F2` but all of the advice for getting the right drivers did nothing to help me. It seemed that starting again with a clean install guided by the docs was the way to go.
+
+## The solution
+
+In the end I bit the bullet and went through another hour-long install, this time painstakingly double checking every setting against whatever Google could offer me. It turns out the offending setting was the option to install proprietary drivers. Apparently _NOT_ installing the drivers designed for you Nvidia card is a better solution than installing them. So there you go. Sometimes the opposite thing to the most intuitively obvious solution is the real solution.
+
+Anyway, it's all running smoothly now. I've got node, npm, atom and some other goodies installed, som hopefully I can get some productive coding done tomorrow.
+
