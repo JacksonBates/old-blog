@@ -5,4 +5,9 @@
 
 I decided to go ahead and see how easy it would be to implement the markdown parser suggested on the FCC Markdown Previewer project page, and it turned out to be quite easy. The marked module does all the md parsing, so all I have to figure out was where to put it and how to get it to render the actual visual output and not just the raw HTML. I admit that I had to check Stack Overflow for the answer to that, but once I found the answer, it was pretty straight forward.
 
-So my Markdown previewer is live: :link:
+So my Markdown previewer is live: link:http://jacksonbates.me/react-beginner/src/[React Markdown Previewer].
+
+It's rough around the edges, and could use some styling, but since FCC wants us to use SASS for the styling and I don't want to overload on that yet, I won't mark it complete. Today's implementation took about 1 hour, but obviously that only includes the parser ability being added to the text area and 'mirror' section, as well as the push to gh-pages.
+
+== Tomorrow's coding
+More React, I guess...
