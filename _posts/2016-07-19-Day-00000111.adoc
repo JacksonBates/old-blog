@@ -1,2 +1,8 @@
 = Day 00000111
 :hp-tags: React, markdown, FCC Project
+
+== Today's coding
+
+I decided to go ahead and see how easy it would be to implement the markdown parser suggested on the FCC Markdown Previewer project page, and it turned out to be quite easy. The marked module does all the md parsing, so all I have to figure out was where to put it and how to get it to render the actual visual output and not just the raw HTML. I admit that I had to check Stack Overflow for the answer to that, but once I found the answer, it was pretty straight forward.
+
+So my Markdown previewer is live: :link:
