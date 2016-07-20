@@ -1,0 +1,10 @@
+= Day 00001000
+:hp-tags: React
+
+== Today's coding
+
+Today was just some boring grunt work getting my next project set up: the FCC Camper Leaderboard, using React. I also watched more of the tutorial series about React, but I'm yet to put any of it into practice.
+
+While today's work was just retreading old ground, I am feeling a bit more confident about working with React. Tomorrow's challenge will be to pull data from an API and have it render in React. I think I heard on some podcast that React and jQuery don't place super well together, so I may have to learn to do the HTTP request using a different method to the `$.ajax` or `$.getJSON` I'm used to.
+
+NOTE: I was in a foul mood today, and it may be the lack of sleep causing it. So, off to bed, now, for my health's sake :)
