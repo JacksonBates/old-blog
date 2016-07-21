@@ -1,0 +1,10 @@
+= Day 00001001
+:hp:tags: React
+
+== Today's coding
+
+More of the same. Still working on the Camper leaderboard, and I've had some success with making static components that can spit out table elements, headers, and rows, but I'm struggling with reading data from an array of objects to populate that table. If I can do that, the next step will be to use the API to get the data.
+
+I'm comparing my approach to that of the video series I've been watching, but I'm still unsure of how props and state fit in to all this, and I thing that might be the key idea I'm missing.
+
+Anyway, that's enough for tonight. More tomorrow...
