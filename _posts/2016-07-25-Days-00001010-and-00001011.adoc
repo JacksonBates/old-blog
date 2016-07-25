@@ -1,1 +1,29 @@
 = Days 00001010 and 00001011
+:hp-tags: React, tensorflow, async woes
+
+== The coding
+The last couple of days have been characterised by more banging my head against React. I have managed to have a table correctly populated, solving the previous day's problem, and I have even managed to read the data from an API and have that populate the table, too.
+
+However, the code for that final solution smells a little callback-hellish to me, and I am sure there is probably a better way to do it.
+
+== The offending code
+
+
+[source, html]
+:language: html
+----
+let APICampers = [];
+
+fetch('https://fcctop100.herokuapp.com/api/fccusers/top/recent')
+.then((response) => response.json())
+.then((data) => APICampers = data)
+.then(() => {
+  for (let i = 0; i < APICampers.length; i++) {
+    APICampers[i]["rank"] = i + 1;
+  };
+})
+.then(() => {
+  const app = document.getElementById('app');
+  ReactDOM.render(<CamperTable campers={APICampers} />, app);
+});
+----
