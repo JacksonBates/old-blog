@@ -32,8 +32,8 @@ While this works, I suspect that putting
 [source,javascript]
 :language: javascript
 ----
-  const app = document.getElementById('app');
-  ReactDOM.render(<CamperTable campers={APICampers} />, app);
+const app = document.getElementById('app');
+ReactDOM.render(<CamperTable campers={APICampers} />, app);
 ----
 
 at the end of a chain of Promises is bad practice. I don't know enough about Promises to know for sure, but I also suspect that rendering the APICampers array into the CamperTable the way I have will cause problems when I want to show the list ordered by the 'all-time' score rather than the recent score.
