@@ -9,8 +9,8 @@ However, the code for that final solution smells a little callback-hellish to me
 == The offending code
 
 
-[source, html]
-:language: html
+[source, javascript]
+:language: javascript
 ----
 let APICampers = [];
 
