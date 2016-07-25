@@ -1,5 +1,5 @@
 = Days 00001010 and 00001011
-:hp-tags: React, tensorflow, async woes
+:hp-tags: React, async woes
 
 == The coding
 The last couple of days have been characterised by more banging my head against React. I have managed to have a table correctly populated, solving the previous day's problem, and I have even managed to read the data from an API and have that populate the table, too.
@@ -27,3 +27,19 @@ fetch('https://fcctop100.herokuapp.com/api/fccusers/top/recent')
   ReactDOM.render(<CamperTable campers={APICampers} />, app);
 });
 ----
+
+While this works, I suspect that putting
+----
+  const app = document.getElementById('app');
+  ReactDOM.render(<CamperTable campers={APICampers} />, app);
+----
+
+at the end of a chain of Promises is bad practice. I don't know enough about Promises to know for sure, but I also suspect that rendering the APICampers array into the CamperTable the way I have will cause problems when I want to show the list ordered by the 'all-time' score rather than the recent score.
+
+== Why fetch()?
+I also think that `fetch()` is not necessarily the best tool for what I want to do. I tried using the `request` module from NPM, but that was not playing nicely with Babel and Webpack. I then also tried the `react-ajax` module, but I found that too confusing to use - the documentation is pretty light and it probably assumes better fluency with React.
+
+So for now I'm stuck with an unsatisfactory `fetch()` while I try and figure out how to do a better http request...
+
+== Tomorrow's Coding
+More research into fixing my async woes...
