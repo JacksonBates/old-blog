@@ -29,6 +29,8 @@ fetch('https://fcctop100.herokuapp.com/api/fccusers/top/recent')
 ----
 
 While this works, I suspect that putting
+[source,javascript]
+:language: javascript
 ----
   const app = document.getElementById('app');
   ReactDOM.render(<CamperTable campers={APICampers} />, app);
