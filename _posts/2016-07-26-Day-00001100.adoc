@@ -1,0 +1,11 @@
+= Day 00001100
+:hp-tags: cheat day, api
+
+== Today's coding
+Another cheat day today. I couldn't be bothered with React, and someone made a really simple API for the quote generator project. I fancied playing with it to see if my callback chops have gotten any better (they have).
+
+The pen can be found here: http://codepen.io/Malgalin/full/vKABrY/
+
+I am now going to investigate the banging noise downstairs.
+
+If I do not post tomorrow, avenge my death.
