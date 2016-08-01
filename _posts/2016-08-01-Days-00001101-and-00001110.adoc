@@ -1,0 +1,11 @@
+= Days 00001101 and 00001110
+:hp-tags: antergos, angular2
+
+== Linux woes
+I've had some issues with Antergos Linux after updating the kernel and finding that it nuked my wifi card. I'm all for learning how to bounce back from that, but it's really eating into my productivity to have to spend so much time troubleshooting and finding similar semi-solved issues on the Arch forum. So for the time being, I've reverted to Windows 10 so I can just keep my focus on coding.
+
+== React woes
+Speaking of productivity, I have also put React on the back-burner. Plenty of people suggest that one of the great things about React is that it just gets out of your way...that could not be further from my experience. I've decided to try out Angular 2 for now, and if I don't like the feel of that, I'm willing to try out Ember as well. I want to learn one framework/library well, and want the one that I can get most excited about - right now that is not React...
+
+== The coding
+So the past couple of days have been spent working through some Angular tutorials. The component structure is not a million miles away from React, so some of the initial friction has probably been lessened. I am also having to pick up a little Typescript as I go, but that has been fine so far. My first impression is that it feels both a little more alien, with the odd XML-ish Angular custom syntax, but also a little more intuitive as well. I feel a little more productive, but the real test will be when I try to implement  the Camper Leaderboard I couldn't bring myself to finish in React.
