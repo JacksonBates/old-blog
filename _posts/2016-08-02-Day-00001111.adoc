@@ -1,0 +1,6 @@
+= Day 00001111
+:hp-tags: Angular
+
+== Today's coding
+Pretty straightforward today: still grinding thought the Angular Tour of Heroes tutorial.
+It's pretty complicated at the moment, with the introduction of services, directives and routes, but I'm hoping with a little more reading around and trying it out in a personal projects without the tutorial training wheels on it will start to make more sense.
