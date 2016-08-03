@@ -1,0 +1,7 @@
+= Day 00010000
+:hp-tags: Angular
+
+== Today's coding
+More of the same - still drinking from the firehose.
+
+I am looking forward to finishing this tutorial so I can see if any of this has stuck at all!
