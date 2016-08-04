@@ -1,0 +1,36 @@
+= Day 00010001
+:hp-tag: Angular
+
+== Yesterday's coding
+
+I finished the Tour of Heroes tutorial yesterday. I noticed while writing out the code that there were a couple of times the tutorial missed a tiny detail that broke the code.
+
+One example of this related directly to Typescript, and trying to reason it out actually helped me understand what was happening in the TS a little better. I didn't bother to learn any TS prior to starting the tutorial, as I figured just seeing it happen in the wild would be enough to trigger some sort of code-osmosis. It was quite as straightforward as that, but I have been intuitively picking up some things as I go.
+
+Anyway, the problem...
+
+I switched VS Code as my editor after a month on Atom just to see how it felt in comparison. One thing I really like about VS Code is the 'problem' reporting (this may be in Atom as well, but not quite as helpful when using ES5/6 maybe?).
+
+After faithfully copying code across from the HTTP section, I was met with the following:
+
+`Property 'addingHero' does not exist on type 'HeroesComponent'`
+
+I looked at the top of the component in question and saw this:
+
+[source, typescript]
+:language: typescript
+----
+heroes: Hero[];
+selectedHero: Hero;
+error: any;
+----
+
+So I figured I needed to add the addingHero property with these properties. I tried `addingHero: any` first, and that did quieten the problem reporting. However I had a suspicion that my lucky guess could be improved. I tried `addingHero: Hero` too, and got the problem report: `Type 'boolean' is not assignable to type 'Hero'`. This clue helped me to realise that `Hero[]`, `Hero`, and `any` were _types_ (hence *typescript* _facepalm_). So I changed it more confidently to `addingHero: Boolean` and learned something about TS syntax in the process.
+
+When I got to the end of the tutorial and saw the finished code file, I noticed that what I was actually expected to do there was write `addingHero = false`. So I don't yet know if that both creates the variable, establishes its type and sets the value in a nice and scoped way, or if it was predefined elsewhere, or if it's somehow in the global scope and may cause issues down the track...but it is in the official documentation from the ng team, so I guess it's best practice! It's clear that I have lots more to learn about TS, anyway.
+
+== What next?
+
+Angular2 feels both _harder_ and more _satisfying_ than React. Keeping all the different new concepts in my head is proving hard. I can't really say with any confidence what directives and services are, but the templating and styling stuff makes sense to me.
+
+I think the next step is to return to the FCC projects that require React and try to implement them with ng. The Markdown previewer was dead easy in React, so presumably it should also be easy in ng. I only really need to understand event binding and templating, and that was covered in the early portion of the TOH tutorial.
