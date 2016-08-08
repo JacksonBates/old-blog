@@ -1,0 +1,28 @@
+= Days 00010010 and 00010011
+:hp-tags: Angular
+
+The last couple of days have seen me working on the Markdown Previewer in Angular2.
+
+I said last time that it should be easy, since it was so easy in React and it's just a simple textarea bound to an output area on the screen.
+
+I was sorta right. Implementing the app itself was relatively easy, although Angular2 best practices depend on you using https://angular.io/docs/ts/latest/guide/pipes.html[Pipes] instead of just wrapping `marked()` around the output text as I did in React.
+
+Getting a third party module to work in Angular2 is non-trivial, until you start to understand all of the related elements the wire everything up behind the scenes.
+
+Getting `marked` imported and running took hours of reading and troubleshooting. I am still new to having any build steps in my workflow - everything up until now has been simply a save-push-refresh kinda thing. So realising that all the stuff in the system-config.js file needs to be wired up appropriately to tell the build tools where imported modules live, for example, was new to me.
+
+I eventually got everything running and thought I was done, but then when I tried hosting it on GitHub Pages I ran into some new problems. I naively thought I could just push the whole node_modules folder up and everything would just work, but it was not that easy.
+
+Luckily, Angular Cli exists and includes a 'simple' one line solution to deploying to gh-pages.
+
+Unluckily, I needed to restart the whole project with Angular Cli, since I was building it based on the Quickstart template from the turorial. Angular Cli introduces a whole bunch of extra build steps and modules that were causing more problems.
+
+I eventually narrowed my main problems down to a bad install, which could be because I previously had a botched install of Ember Cli on my system.
+
+Anyway, that messed with my previous Marked install as well, so I had to jump through a whole new set of hoops for that.
+
+When I finally got it working locally, I still couldn't push to gh-pages, because apparently you can't have `ng serve` running while you build. And then I also had issues that meant I had to manually delete the `Dist` folder.
+
+Long story short, I finally, after 2 days, managed to implement the Markdown Previewer and run it on gh-pages:
+
+See the fruit of my efforts here: http://hacksonbates.me/ng-markdown[Ng Markdown Previewer]
