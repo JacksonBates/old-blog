@@ -1,0 +1,7 @@
+= Day 00010100
+:hp-tags: portfolio
+
+== Today's coding
+
+I fancied an easy day after the last two days of trying to wrangle Angular2, so I've been fixing up some of the more egregious design choices in my previous projects. I actually used media queries for the first time properly as a result, so I feel like a real CSS coder :)
+
