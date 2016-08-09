@@ -5,3 +5,5 @@
 
 I fancied an easy day after the last two days of trying to wrangle Angular2, so I've been fixing up some of the more egregious design choices in my previous projects. I actually used media queries for the first time properly as a result, so I feel like a real CSS coder :)
 
+I also mocked out the dumb part of the camper table. This was the easy bit in React...tomorrow I try reading from an API to feed the table, which is the point where React and I divorced. It'll be interesting to see how that goes...
+
