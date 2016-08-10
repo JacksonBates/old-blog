@@ -1,0 +1,6 @@
+= Day 00010101
+:hp-tags: Angular2
+
+== Today's coding
+
+Very simple today: just doing some straightforward CSS work on the Camper table. I intended to implement the HTTP requests to get live data from an API, but the way that is done in Angular2 is a fair bit more complicated than the typical jQuery $ajax call. I need to read up on it more thoroughly, so I'll just call it a night for now.
