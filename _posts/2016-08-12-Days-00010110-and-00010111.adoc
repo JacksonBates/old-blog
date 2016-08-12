@@ -1,0 +1,18 @@
+= Days 00010110 and 00010111
+:hp-tags: Angular2, RxJS, Observables
+
+Urgh!
+
+Yesterday was horrid. I have been trying to get my Camper Leaderboard to read from an API instead of a mock file and I was having all sorts of problems understanding RxJS Observables. I spent about three hours reading the HTTP section of the Angular2 docs and trying to implement the necessary changes, but I had to give up in the end.
+
+During the middle of the night while letting the dog out for a pee I had a mini epiphany that I shouldn't trust my assumptions that the data abject I was requesting would be the same as the one in the tutorial, or similar to the mock one I had. This turned out to be a blind alley, but at least it motivated me to continue working on it the next day.
+
+With renewed courage I deleted all of the previous night's code and reverted to the last git commit (Thank you Jesus for Git), and went about methodically rewriting my code on a new branch (first time for that, too!). First I tried to get the camper.service to work with Promises while reading from the mock file. That worked, and it emboldened me to continue with Observables again. 
+
+I hit a small bump with needing to 'provide' the Http, but this SO answer set me straight: http://stackoverflow.com/questions/33721276/angular-2-no-provider-for-http .
+
+After that, the only other problem was that I was copying the Angular Docs example for the extractData method verbatim...my midnight epiphany was right in this regard. Once I stopped trying to read from `body.data` and just read from `body` it worked!
+
+I finally successfully merged the feature branch back into master and can wash my hands of the whole experience :)
+
+The next challenge will be to allow for the table data to switch between 'recent' and 'alltime' scores. I think I'll use routing for that, but we shall see...
