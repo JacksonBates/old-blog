@@ -1,0 +1,16 @@
+= Day 00011000
+:hp-tags: linux, windows, algorithms, open source
+
+== I killed my computer
+I tried to update Windows 10, and through a series of misadventures, I completely bricked my laptop. Essentially, I destroyed the bootloader. The only thing I could do was load a clean Ubuntu install onto it and say goodbye to Windows. It turns out the 'recovery' drive I've had sitting in a draw in case of emergencies, doesn't actually help you recover...
+
+== Hello Ubuntu
+So after my failed attempt at getting into Linux last month, I decided to scale back the ambition and go with the most stable OS I could get my hands on. I assume that's Ubuntu...we'll see. It took a little while to get my Broadcom wifi card playing nicely, but having to do all that with the Antergos installation last time meant I knew I'd manage it.
+
+I have all my coding stuff set up, and I'm pretty happy with the new OS.
+
+== Hello Open Source
+One 'first' to celebrate my introduction to Ubuntu: I have sent my first ecery legitimate Pull Request to a Github repo. I tried to install a utility for monitoring my bandwidth quota and it was broken. I poked around in the source code to try to fix it and discovered what was wrong. I got a little hotfix working on my machine, so I figured I'd send the changes to the original repo owner as a PR. If this PR gets accepted, it will be my first ever, real coding contribution to opensource!
+
+== Today's coding
+Not much coding recently, with all the computer repair I've been doing. There was today's opensource contribution, but I felt like I needed a better challenge before calling it a night. I took another crack at the FCC Validating US phone numbers algortihm challenge. I fired up http://regex101.com and methodically added each test FCC wanted me to pass, modifying the RE as I went. It took a while, but that incremental approach paid off and I managed to pass the challenge. That was my first successful 'advanced' algorithm from the FCC challenges, so it feels good to have made a dent in those.
