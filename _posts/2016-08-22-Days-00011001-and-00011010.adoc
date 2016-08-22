@@ -1,0 +1,13 @@
+= Days 00011001 and 00011010
+:hp-tags: algorithms, voting app
+
+The past two days have seen me complete the Symmetric Difference algorithm and start work on the Voting App project.
+
+I was putting off the app until I had learned a front end framework, but since I couldn't get on with React and since Angular2 is still so finicky, I decided to just use what I know: Node, Mongo, Express and good 'ol HTML.
+
+I am a little perplexed by the schema for non-relational databases when they allow for dynamic 'columns' in 'tables' (I know Mongo does not use tables, but it's hard to shake that RDBMS hangup). I think I have a sensible approach, but I will have to wait and see if my assumptions about how I'll be able to manipulate the JSON documents is correct.
+
+== Coding music
+
+Incidentally, I have started listing to a new Pandora station seeded with Groove Armada while coding. It's ace, and really takes me back to my teens. Lots of Moorcheeba, Massive Attack, Sneaker Pimps and Portishead! I absolutely love it!
+
