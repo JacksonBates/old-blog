@@ -1,0 +1,16 @@
+= Days 00011011 and 00011100
+:hp-tags: emailjs, passwordless, chartjs
+
+Work on the Voting app is roaring along!
+
+Implementing passwordless authentication has not been without it's issues, but mainly due to token delivery. I'm using `emailjs` to handle the emails, and I spent several hours last night and then again today trying to troubleshoot it. 
+
+Firstly, I was having difficulties reading the email account password from environment variables. I tried both native environment variables (for Linux and Heroku) and the npm `dotenv` package to no avail. I didn't want to have to hard-code my credentials into the files that would be sitting in a public git repo...
+
+Secondly, Gmail did not like me using an unregistered app to send emails. It took me a long time to realise that. By the time someone mentioned that to me, I had already switched to Outlook.
+
+I eventually got around the dotenv issues by coming up with fresh variable names, and I also suspect I had missing parentheses in my `require('dotenv').config()` call at the top of my `server.js`. And jumping from Gmail to Outlook made things much easier for me as well. Once again, Microsoft are the ones making the software that actually works and gets out of my way. To date, I have had the most luck with the Bing API, VS Code and now Outlook over their competitors. It should be noted, I would probably still be a huge Windows 10 fan, had I not irretrievably nerfed the boot loader and had to permanently migrate to Ubuntu!
+
+After those hiccups, getting `passwordless` working was trivially easy by comparison, and I've had a lot of fun tinkering with `chartjs`. Incidentally, I had to install `browserify` and learn what it does in order to import `chartjs` on the client side, and it's given me a small taste of Grunt / Gulp that I will probably get into more in the not-too-distant future. I had some fun little challenges to overcome with the charts, like how to ensure the varied length options / voteCount arrays would have the correct number of coloured bars in the chart. I solved that by making a random colour generator that determines the barchart colours on the fly. Pretty simple, but also the first thing I feel like I actually built to solve a problem recently, rather than just npm installing various packages and copy-pasting some quickstart snippets from their README.md to get stuff done.
+
+Anyway, I'm pretty happy with my progress on the app so far. It's taking shape well. The next step it to allow users to vote on the polls. The user story for the project says that unathenticated users should be allowed to vote - but I disagree, so I will be breaking that rule!
