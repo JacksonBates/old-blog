@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Days 00011011 and 00011100 - Adventures in Code</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Days 00011011 and 00011100">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Days 00011011 and 00011100">
+    <meta property="og:description" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" type="text/css" href="//JacksonBates.github.io/blog/themes/uno/assets/css/uno.css?v=1472042770112" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="canonical" href="https://JacksonBates.github.io/blog/2016/08/24/Days-00011011-and-00011100.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="Adventures in Code" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Days 00011011 and 00011100" />
+    <meta property="og:description" content="Work on the Voting app is roaring along! Implementing passwordless authentication has not been without it&amp;#8217;s issues, but mainly due to token delivery. I&amp;#8217;m using emailjs to handle the emails, and I spent several hours last night and then again today trying to troubleshoot it. Firstly," />
+    <meta property="og:url" content="https://JacksonBates.github.io/blog/2016/08/24/Days-00011011-and-00011100.html" />
+    <meta property="article:tag" content="emailjs" />
+    <meta property="article:tag" content=" passwordless" />
+    <meta property="article:tag" content=" chartjs" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Days 00011011 and 00011100" />
+    <meta name="twitter:description" content="Work on the Voting app is roaring along! Implementing passwordless authentication has not been without it&amp;#8217;s issues, but mainly due to token delivery. I&amp;#8217;m using emailjs to handle the emails, and I spent several hours last night and then again today trying to troubleshoot it. Firstly," />
+    <meta name="twitter:url" content="https://JacksonBates.github.io/blog/2016/08/24/Days-00011011-and-00011100.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="Adventures in Code" href="https://JacksonBates.github.io/blog/rss/" />
+
+</head>
+<body class="post-template tag-emailjs tag-passwordless tag-chartjs no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover panel-cover--collapsed " >
+      <div class="panel-main">
+    
+        <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+    
+            <h1 class="panel-cover__title panel-title"><a href="https://JacksonBates.github.io/blog" title="link to homepage for Adventures in Code">Adventures in Code</a></h1>
+            <hr class="panel-cover__divider" />
+            <p class="panel-cover__description"></p>
+            <hr class="panel-cover__divider panel-cover__divider--secondary" />
+    
+            <div class="navigation-wrapper">
+    
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="https://JacksonBates.github.io/blog/#blog" title="link to Adventures in Code blog" class="blog-button">Blog</a></li>
+                </ul>
+              </nav>
+    
+              
+              
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+              
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="http://twitter.com/jacksonbates" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="http://github.com/JacksonBates" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+              
+              
+                  <!-- Email -->
+                  <li class="navigation__item">
+                    <a href="mailto:jacksonbates@hotmail.com" title="Email jacksonbates@hotmail.com">
+                      <i class='icon icon-mail'></i>
+                      <span class="label">Email</span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </nav>
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="panel-cover--overlay"></div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="24 Aug 2016" class="post-meta__date date">24 Aug 2016</time> &#8226; <span class="post-meta__tags tags">on <a href="https://JacksonBates.github.io/blog/tag/emailjs/">emailjs</a>, <a href="https://JacksonBates.github.io/blog/tag/passwordless/"> passwordless</a>, <a href="https://JacksonBates.github.io/blog/tag/chartjs/"> chartjs</a></span>
+        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/4337740?v&#x3D;3" alt="profile image for Jackson Bates" class="avatar post-meta__avatar" /> by Jackson Bates</span>
+      </div>
+      <h1 class="post-title">Days 00011011 and 00011100</h1>
+    </header>
+
+    <section class="post tag-emailjs tag-passwordless tag-chartjs">
+      <div class="paragraph">
+<p>Work on the Voting app is roaring along!</p>
+</div>
+<div class="paragraph">
+<p>Implementing passwordless authentication has not been without it&#8217;s issues, but mainly due to token delivery. I&#8217;m using <code>emailjs</code> to handle the emails, and I spent several hours last night and then again today trying to troubleshoot it.</p>
+</div>
+<div class="paragraph">
+<p>Firstly, I was having difficulties reading the email account password from environment variables. I tried both native environment variables (for Linux and Heroku) and the npm <code>dotenv</code> package to no avail. I didn&#8217;t want to have to hard-code my credentials into the files that would be sitting in a public git repo&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Secondly, Gmail did not like me using an unregistered app to send emails. It took me a long time to realise that. By the time someone mentioned that to me, I had already switched to Outlook.</p>
+</div>
+<div class="paragraph">
+<p>I eventually got around the dotenv issues by coming up with fresh variable names, and I also suspect I had missing parentheses in my <code>require('dotenv').config()</code> call at the top of my <code>server.js</code>. And jumping from Gmail to Outlook made things much easier for me as well. Once again, Microsoft are the ones making the software that actually works and gets out of my way. To date, I have had the most luck with the Bing API, VS Code and now Outlook over their competitors. It should be noted, I would probably still be a huge Windows 10 fan, had I not irretrievably nerfed the boot loader and had to permanently migrate to Ubuntu!</p>
+</div>
+<div class="paragraph">
+<p>After those hiccups, getting <code>passwordless</code> working was trivially easy by comparison, and I&#8217;ve had a lot of fun tinkering with <code>chartjs</code>. Incidentally, I had to install <code>browserify</code> and learn what it does in order to import <code>chartjs</code> on the client side, and it&#8217;s given me a small taste of Grunt / Gulp that I will probably get into more in the not-too-distant future. I had some fun little challenges to overcome with the charts, like how to ensure the varied length options / voteCount arrays would have the correct number of coloured bars in the chart. I solved that by making a random colour generator that determines the barchart colours on the fly. Pretty simple, but also the first thing I feel like I actually built to solve a problem recently, rather than just npm installing various packages and copy-pasting some quickstart snippets from their README.md to get stuff done.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, I&#8217;m pretty happy with my progress on the app so far. It&#8217;s taking shape well. The next step it to allow users to vote on the polls. The user story for the project says that unathenticated users should be allowed to vote - but I disagree, so I will be breaking that rule!</p>
+</div>
+    </section>
+
+  </article>
+
+  
+  <section class="post-comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'jacksonbatesme'; // required: replace example with your forum shortname
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </section>
+  
+
+
+
+            <footer class="footer">
+                <span class="footer__copyright">&copy; 2016. All rights reserved.</span>
+                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
+                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script type="text/javascript" src="//JacksonBates.github.io/blog/themes/uno/assets/js/main.js?v=1472042770112"></script>
+    
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80704400-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>
