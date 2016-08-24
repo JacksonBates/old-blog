@@ -3,7 +3,7 @@
 
 Work on the Voting app is roaring along!
 
-Implementing passwordless authentication has not been without it's issues, but mainly due to token delivery. I'm using `emailjs` to handle the emails, and I spent several hours last night and then again today trying to troubleshoot it. 
+Implementing passwordless authentication has not been without its issues, but mainly due to token delivery. I'm using `emailjs` to handle the emails, and I spent several hours last night and then again today trying to troubleshoot it. 
 
 Firstly, I was having difficulties reading the email account password from environment variables. I tried both native environment variables (for Linux and Heroku) and the npm `dotenv` package to no avail. I didn't want to have to hard-code my credentials into the files that would be sitting in a public git repo...
 
