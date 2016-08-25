@@ -1,0 +1,14 @@
+= Day 00011101
+:hp-tags: voting app
+
+== Today's coding
+
+I've been super productive today and I am loving this project!
+
+Today I implemented the majority of the user interaction, I think. I am still deciding whether I should allow voters to create new options, or whether the poll creator should have the right to decide that. I think I'm leaning towards creator discretion, and that will be the trickiest to implement, so I might save it for an advanced feature.
+
+I also currently redirect from the poll creation page to the home page, but the vote page for the newly created poll would be the more logical choice. The trouble with this is that the page redirect relies on the id string for the database document that is only created when the document is inserted. I'm sure there is a way of getting that ID, but I haven't tried to figure it out yet.
+
+Incrementing the vote count in the arrays proved to be a little tricky, since I was having to dynamically increment the vote by the array index, and passing that into a Mongo DB is not that intuitive. You can't pass a variable into a Mongo document as a field, because it reads it as a string and creates a weird new field instead of updating the one intended. It turns out you can construct an fully formed object including the dynamic field name and corresponding value (or increment) outside of the query with a little magic. Took a fair bit of Googling to figure that one out, but no where near as much of a road block as emailjs was.
+
+On the topic of emailjs, I am finding the throttled speed of the email delivery to be very annoying. As much as I want to provide passwordless authentication, if it comes at the cost of this massive speed bump, I may just implement a different authentication method. I'll get some feedback from the FCC forum nearer completion before making that decision.
