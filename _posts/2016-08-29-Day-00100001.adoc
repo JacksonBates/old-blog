@@ -1,0 +1,9 @@
+= Day 00100001
+:hp-tags: nightlife coordination, productivity
+
+== Today's coding
+So yesterday I was talking up how much more complex I was going to make this next project, but now that I am starting it, it really isn't that interesting an app. I think I would rather just meet the existing user stories and then move on to a more interesting one.
+
+The thing I have enjoyed, though, is the use of the Pomello app for Trello. I don't really care about the Pomodoro aspect of it, but precisely timing each discrete task is very appealing to me. I now know, for example, that it took me 55 minutes to get the Yelp API to print something useful to the console. It is worth pointing out that that is with a script copy-pasta'd from t'internet. Who knows how long it would have taken if I had tried to figure out Oauth secret key generation solo.
+
+Anyway, Pomello reliably informs me that I coded for 2:11 tonight, so it's time for bed.
