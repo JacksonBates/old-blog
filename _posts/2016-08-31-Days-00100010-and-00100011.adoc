@@ -1,0 +1,8 @@
+= Days 00100010 and 00100011
+:hp-tags: flexbox, sass
+
+I have spent the last two days holding off on the nightlife app, since I wanted to learn a little about flexbox and get started using Sass. I want to use both of those in this project, but didn't want the cognitive overhead of learning those and solving the regular problems of the app functionality. So I ended up watching a bunch of Wes Bos videos and then tried to refactor my weather app.
+
+I got rid of Bootstrap and nuked the existing CSS so I could redo the whole design. I found some nice Flat icons for the weather icons and stole a colour pallete from colorlovers as well, so even though it is a very simple design, I think it is a lot more strinking and professional looking than the previous iteration.
+
+You can see the Flexy Sassy Version at http://jacksonbates.me/fcc-local-weather
