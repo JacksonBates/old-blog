@@ -1,0 +1,16 @@
+= Days 00011110, 00011111 and 00100000
+:hp-tags: Voting app
+
+It's hard to recall what I did for the last three days, but luckily my git commits can remind me!
+
+Day 30 was just about adding the my polls route to the app and the views and logic that went with that. I tried to get a nice hoverable link list with secondary content for the poll delete button using Materialize, but it seems Materialize doesn't allow for the links in collections to have secondary content. I kept finding the buttons were moving down on to the next line, and couldn't figure out why. In the end, I hacked together my own hoverable class for the appropriate elements to emulate the effect I wanted. I wasted a fair bit of time figuring that outm though.
+
+On day 31 (yesterday) I submitted my app for review on the forum and got some nice quick feedback on the effects of not validating form entry, since a user couldn't figure out how to get past the login screen. So I added the login. I also added some dynamic social media sharing buttons and did the last tweaks to make it complete. I added some extra pages, like a 404 and privacy policy, fixed the mobile responsiveness issues I was having, and added a nifty algorithm to the my-polls page to give a snapshot of the leading option in each poll.
+
+Today I went back to include the final user story I was refusing to add previoulsy due to protest! The original user stories include the 'feature' that if a user does not like the options in a poll, they can add a custom one. I actually think that is a terrible idea for a voting app, but I went ahead and put it in anyway, just to tick the box. I took the opportunity to add another form validation script, since the added complexity of the vote form meant it had become possible to throw server errors if use input wasn't carefully vetted. For some reason, one of the cases in my validation script slips by mobile Safari, so I added a simple server response for that case. The rest of it is all handled with very nice Materialize 'Toasts.' I really like Materialize!
+
+== What's next?
+
+The next project is supposed to be a 'nightlife coordination app' but the example project is pretty banal. It's basically an app that read the Yelp api for local bars and lets users tick the ones they are going to. It's pretty poorly thought out in the example though, because while it is supposed to be about 'tonight' there is no mechanism for determining date in the app! So all the 'going' votes are persistent. It is also supposed to be about coordinating friends, and yet there is no mechanism for 'friending' people. The app assumes, I guess, that only your friends have the url, but I think account information could group people more effectively. The project app actually seems pretty easy, so I'm planning to add a few features to improve the usability.
+
+Hopefully...
