@@ -1,0 +1,9 @@
+= Day 00100100
+:hp-tags: Bender's apartment, nightlife coordination
+
+Today is day 36, which in binary is 00100100. Aside from being a nice looking binary number (especially if you ditch the zero padding: 100100), it is also Bender's apartment number. It represents the ASCII code for `$`, hence Bender's affinity for it. The more you know...
+
+Anyway,  Pomello reliably informs me that I spent 55 minutes working on the search page for the nightlife coordination app. This would have been a trivially easy thing to do with Bootstrap or Materialize, but since I am rolling my own CSS with Sass and Flexbox for this project, styling every little thing took a lot of tweaking. At the moment it is literally just a single text input and a submit button, and it still took nearly an hour!
+
+After that I spent about another 45 minutes massaging the Yelp API into providing some usable data and making sure I could spit it out on a views page. That all works nicely, but the next step will be to style that, and given the painstaking tweaking a simple form took, I think that job is gonna lead to a long night!
+
