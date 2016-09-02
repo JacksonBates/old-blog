@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Days 00011110, 00011111 and 00100000</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://JacksonBates.github.io/blog/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic|Open+Sans:400italic,700italic,700,400">
+    <link rel="stylesheet" type="text/css" href="//JacksonBates.github.io/blog/themes/roon/assets/css/screen.css?v=1472778740226" />
+
+    <link rel="canonical" href="https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="Adventures in Code" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Days 00011110, 00011111 and 00100000" />
+    <meta property="og:description" content="It&amp;#8217;s hard to recall what I did for the last three days, but luckily my git commits can remind me! Day 30 was just about adding the my polls route to the app and the views and logic that went with that. I tried to get a nice" />
+    <meta property="og:url" content="https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html" />
+    <meta property="article:tag" content="Voting app" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Days 00011110, 00011111 and 00100000" />
+    <meta name="twitter:description" content="It&amp;#8217;s hard to recall what I did for the last three days, but luckily my git commits can remind me! Day 30 was just about adding the my polls route to the app and the views and logic that went with that. I tried to get a nice" />
+    <meta name="twitter:url" content="https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="Adventures in Code" href="https://JacksonBates.github.io/blog/rss/" />
+</head>
+<body class="post-template tag-Voting-app  noimage">
+
+    
+
+
+    <article role="main" class="">
+        <header>
+            <a href="https://JacksonBates.github.io/blog" id="home_link">«</a>
+            <div class="meta"><time datetime="2016-08-28"><a href="https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html">August 28, 2016</a></time> <span class="count" id="js-reading-time"></span></div>
+            <h1>Days 00011110, 00011111 and 00100000</h1>
+        </header>
+
+        <div class="text" id="js-post-content">
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s hard to recall what I did for the last three days, but luckily my git commits can remind me!</p>
+</div>
+<div class="paragraph">
+<p>Day 30 was just about adding the my polls route to the app and the views and logic that went with that. I tried to get a nice hoverable link list with secondary content for the poll delete button using Materialize, but it seems Materialize doesn&#8217;t allow for the links in collections to have secondary content. I kept finding the buttons were moving down on to the next line, and couldn&#8217;t figure out why. In the end, I hacked together my own hoverable class for the appropriate elements to emulate the effect I wanted. I wasted a fair bit of time figuring that outm though.</p>
+</div>
+<div class="paragraph">
+<p>On day 31 (yesterday) I submitted my app for review on the forum and got some nice quick feedback on the effects of not validating form entry, since a user couldn&#8217;t figure out how to get past the login screen. So I added the login. I also added some dynamic social media sharing buttons and did the last tweaks to make it complete. I added some extra pages, like a 404 and privacy policy, fixed the mobile responsiveness issues I was having, and added a nifty algorithm to the my-polls page to give a snapshot of the leading option in each poll.</p>
+</div>
+<div class="paragraph">
+<p>Today I went back to include the final user story I was refusing to add previoulsy due to protest! The original user stories include the 'feature' that if a user does not like the options in a poll, they can add a custom one. I actually think that is a terrible idea for a voting app, but I went ahead and put it in anyway, just to tick the box. I took the opportunity to add another form validation script, since the added complexity of the vote form meant it had become possible to throw server errors if use input wasn&#8217;t carefully vetted. For some reason, one of the cases in my validation script slips by mobile Safari, so I added a simple server response for that case. The rest of it is all handled with very nice Materialize 'Toasts.' I really like Materialize!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_s_next">What&#8217;s next?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The next project is supposed to be a 'nightlife coordination app' but the example project is pretty banal. It&#8217;s basically an app that read the Yelp api for local bars and lets users tick the ones they are going to. It&#8217;s pretty poorly thought out in the example though, because while it is supposed to be about 'tonight' there is no mechanism for determining date in the app! So all the 'going' votes are persistent. It is also supposed to be about coordinating friends, and yet there is no mechanism for 'friending' people. The app assumes, I guess, that only your friends have the url, but I think account information could group people more effectively. The project app actually seems pretty easy, so I&#8217;m planning to add a few features to improve the usability.</p>
+</div>
+<div class="paragraph">
+<p>Hopefully&#8230;&#8203;</p>
+</div>
+</div>
+</div>
+        </div>
+
+        <menu>
+            <a href="" id="btn_share" class="btn" title="Share">
+                <span aria-hidden="true" data-icon="S"></span>
+                <strong>Share</strong>
+            </a>
+            <a href="http://twitter.com/share?text=Days%2000011110%2C%2000011111%20and%2000100000&url=https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
+                <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
+            </a>
+        </menu>
+
+
+        <footer class="post-footer" role="contentinfo">
+
+            <div class="vcard">
+                <!-- <a href="https://JacksonBates.github.io/blog/rss" id="btn_feed" class="btn" title="Feed" target="_blank">
+                    <span aria-hidden="true" data-icon=")"></span>
+                    <strong>Feed</strong>
+                </a> -->
+
+                <a href="https://JacksonBates.github.io/blog/author/JacksonBates/" class="photo">
+                    <span style="background-image: url('https://avatars.githubusercontent.com/u/4337740?v&#x3D;3');">
+                        <img src="https://avatars.githubusercontent.com/u/4337740?v&#x3D;3" alt="Jackson Bates">
+                    </span>
+                </a>
+
+                <div class="details">
+                    <h4><a href="https://JacksonBates.github.io/blog/author/JacksonBates/" class="url n">Jackson Bates</a></h4>
+                    Melbourne, Australia<br>
+                    
+                </div>
+            </div>
+
+            <div id="user_bio">
+                <div class="inner">
+                    
+                </div>
+            </div>
+
+        </footer>
+
+
+
+
+    <section class="post-comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+      var disqus_shortname = 'jacksonbatesme'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </section>
+
+
+    </article>
+
+    <div id="share_modal">
+        <div class="wrap">
+            <div class="inner">
+                <header>
+                    Share
+                    <a href="" class="close" title="Close">&times;</a>
+                </header>
+
+                <div class="roon-share-links">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                    <div id="fb-elems">
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=463438580397968";
+                        fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        <div class="fb-like" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
+                    </div>
+
+                    <div id="pinit-btn">
+                        <a href="//pinterest.com/pin/create/button/?url=https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html&amp;description=Days%2000011110%2C%2000011111%20and%2000100000-Adventures%20in%20Code " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
+                        <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+
+            function get_text(el) {
+                ret = "";
+                var length = el.childNodes.length;
+                for(var i = 0; i < length; i++) {
+                    var node = el.childNodes[i];
+                    if(node.nodeType != 8) {
+                        ret += node.nodeType != 1 ? node.nodeValue : get_text(node);
+                    }
+                }
+                return ret;
+            }
+            function reading_time () {
+                var post_content = document.getElementById('js-post-content');
+                if (post_content) {
+                    var words = get_text(post_content),
+                        count = words.split(/\s+/).length,
+                        read_time = Math.ceil((count / 150)),
+                        read_time_node = document.createTextNode(read_time + ' min read');
+                    document.getElementById('js-reading-time').appendChild(read_time_node);
+                }
+            }
+
+        function no_schema_links () {
+            var links = document.querySelectorAll('.js-remove-domain-schema');
+            if (links) {
+                for (i = 0; i < links.length; ++i) {
+                    var link = links[i],
+                        text = link.innerHTML,
+                        no_schema = text.replace(/.*?:\/\//g, "");
+                    link.innerHTML = no_schema;
+                }
+            }
+        }
+
+        window.onload = function () {
+            no_schema_links();
+
+            reading_time();
+        }
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+        <script>
+            $(function(){
+                var share_modal = $("#share_modal"),
+                    update_social_links = true;
+
+                $("#btn_share").click(function(){
+                    var that = $(this);
+                    share_modal.fadeIn(200);
+                    return false;
+                });
+
+                share_modal.click(function(e){
+                    if (e.target.className == "wrap" || e.target.id == "share_modal") {
+                        share_modal.fadeOut(200);
+                    }
+                    return false;
+                });
+
+                share_modal.find("div.inner > header > a.close").click(function(){
+                    share_modal.fadeOut(200);
+                    return false;
+                });
+            });
+        </script>
+
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80704400-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>
