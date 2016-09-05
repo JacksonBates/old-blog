@@ -1,0 +1,9 @@
+= Day 00100101
+:hp-tags: nightlife coordination
+
+Not much to report just yet. Only an hour spent coding after being away for the weekend, and still working on the CSS for the search results page. I'm getting the hang of some of the positioning quirks with flexbox and working out when it is more appropriate to use floats and older style positioning.
+
+I am moving very slowly with this at the moment. If I had implememented this in Bootstrap I would be halfway through the next project already, but hand crafting all of the CSS is really giving me an appreciation of how to do CSS from scratch properly.
+
+I think I will also have to go through and make sure all of my vendor prefixing is correct as well, since that is something I've been lax with in all my previous efforts (since frameworks usually do the heavy lifting there as well!).
+
