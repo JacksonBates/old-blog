@@ -1,0 +1,6 @@
+= Day 00100110
+:hp-tags: nightlife coordination
+
+I've spent a total of 2:15 on the search results CSS, with some minor tweeks to the search form page too. I'm pretty happy with it at the moment, even if it is quite simple.
+
+The next step is to integrate authentication. I am looking at PassportJS for this project, but configuring it seems a trifle annoying, so I will save it for tomorrow morning, I think.
