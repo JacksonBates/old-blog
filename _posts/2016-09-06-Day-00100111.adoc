@@ -1,0 +1,10 @@
+= Day 00100111
+:hp-tags: nightlife coordination
+
+Super frustrating day trying to work with PassportJS today. The docs are pretty patchy and I can't seem to get it working the way I want. After about 2 hours of messing around I've managed to get a user authenticated and have a FB profile object returned, but doing anything with that is proving quite tricky.
+
+I am very tempted to ditch Passport and instead return to Passwordless. Maybe this time I'll use Sparkpost for the email delivery, just so I'm learning something new.
+
+I only really wanted to see what Passport was like to work with, but I think philosophically I am more interested in relying on Passwordless. I do know people with no FB account, but I don't know anyone without an email address, so from a purely practical position of being able to reach more people Passwordless is the better choice. I think wasting any more time on Passport is just going to annoy me and not really have any payoff for me.
+
+I'll see how I feel about it in the morning.
