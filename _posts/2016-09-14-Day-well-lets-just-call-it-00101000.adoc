@@ -1,2 +1,14 @@
 = Day, well let's just call it 00101000...
 :hp-tags: nightlife coordination
+
+I've been a bit all over the place this week and not really tracking my coding that well. So for the sake of simplicity I'll just count all of the work since the last post as a single day...most of it turned out to be a write off anyway.
+
+As predicted, I have decided to put Passport and the necessary Mongoose implementation required to follow Passport tutorials in the 'too-hard-basket' for this project, and I'm going to go back to Passwordless authentication.
+
+I will use passport in the next project, but I'll take the time to really get Mongoose straight in my head first and then diligently follow the tutes like a good little boy.
+
+I did get my Sparkpost account up and running, which was a little complicated by needing to hook up the sending domain and messing with some DNS records for jacksonbates.me, but I think I should be able to get it configured easily enough once I'm ready to sit down to it again.
+
+Last night I gave a lightning talk at the FCC Melbourne Meetup, which was a nice experience. I bagged out LinkedIn a fair bit in my talk, but ironically came away from the eveingin with a handful of new LinkedIn contacts all the same! In preparation for the talk I made my slides in reveal.js and hacked together a little dynamic front-page for the repo I will store future reveal slide decks in. It uses the GitHub API to get the files from the repo and then parses those for any ending in `.html` before adding them to the page using jQuery. It's really reminiscent of the intermediate frontend projects from FCC, but it was a nice little side project to work on and only took an hour or so to implement once I had researched the API.
+
+I should get into a proper coding session tomorrow night, so hopefully I'll have the Passwordless authentication set up by then and can finish this project.
