@@ -8,3 +8,7 @@ Some success today! I managed to get SparkPost fully integrated and it seems to 
 I did have an odd bug where the email sending would hang and not move on to rendering the 'sent' page, but after reading the code a little more closely it was just a poxy closing parenthesis that was missing.
 
 I still need to test it on Heroku to ensure the lag is fully gone, and then need to start handling my users more appropriately with a user database, but the implementation friction with Passwordless was once again trivial compared to Passport, and SparkPost was a nice improvement over emailjs.
+
+**Update**
+
+It works well on Heroku with no lag! I feel totally vindicated for switching!
