@@ -1,0 +1,10 @@
+= Day 00101001
+:hp-tags: nightlife coordination
+
+== Today's coding
+
+Some success today! I managed to get SparkPost fully integrated and it seems to be working well with Passwordless. The lag I was experiencing with emailjs and what I suspected was the slow TLS encryption seems to not be an issue with SP, and it's nice to have emails being sent from a personal domain rather than an Outlook account - it feels a little more professional.
+
+I did have an odd bug where the email sending would hang and not move on to rendering the 'sent' page, but after reading the code a little more closely it was just a poxy closing parenthesis that was missing.
+
+I still need to test it on Heroku to ensure the lag is fully gone, and then need to start handling my users more appropriately with a user database, but the implementation friction with Passwordless was once again trivial compared to Passport, and SparkPost was a nice improvement over emailjs.
