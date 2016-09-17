@@ -1,0 +1,14 @@
+= Days 00101010 and 00101011
+:hp-tags: passwordless, medium, CSRF,codewars
+
+The last couple of days, I've been writing a piece for the Free Code Camp Medium publication. The piece has lots of code snippets in it and the experience of writing code in a non-highlighted text window is really unsettling. Checking for parentheses and braces is really tricky. It made me much more appreciative of VS Code and all the other editors I've used over the years.
+
+== CSRF security concerns
+
+One thing I had to do before sending the article in for review was address a security concern a fellow camper sent me on the forum. It related to this post: https://fosterelli.co/dangerous-use-of-express-body-parser.html[Dangerous use of Express body parser]. The fix was reasonably easy, but it was good to learn about that issue.
+
+== Code Wars
+
+Something that gets periodically mentioned on the FCC Forum is an algorith challenge website called http://codewars.com[Code Wars]. I have finally signed up and started working through challenges. So far I am still ranked quite low, but I got myself off the bottom of the FCC clan leaderboard at least.
+
+The thing I like about Code Wars at the moment is that it presents more algorithms than FCC, and there are more to do at my current level of ability. I still have some Advanced algorithms to do in the FCC curicculum, and while I could conceivably do them, they are of the type that will likely take me a lot of time to solve. At the moment I would rather work more productively on my apps than burn a couple of weeks finishing the Advanced Algorithms, so Code Wars presents a nice middle ground of fresh algorithms to do when I fancy a challenge, without having to commit so much time to solving them.
