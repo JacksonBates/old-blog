@@ -1,0 +1,13 @@
+= Day 00101100
+:hp-tags: nightlife coordination
+
+== Today's coding
+Making some progress with the nightlife app today. I'm still pretty uninspired by it, but I've been problem solving some quirky issues with reading and parsing data that have been interesting to solve. I'm treating the records like the polls in the last app - which is an admittedly hacky way of doing it. 
+
+My thinking behind this was that I only wanted to save a venue in the database if a user had stated they were going, but I didn't want to replicate details from the Yelp API. So what I am doing is only saving a list of email addresses attached to specific yelp IDs. 
+
+I do a quick query to check the 20 Yelp objects and see if I have any records for them in my lazy database. If I do, then I do a count of the email addresses on the page. 
+
+It's leading to some excruciatingly ugly EJS, but it is functioning as required.
+
+I think in my next project I am going to use Mongoose and aim for a more robust approach to handling my database model. Currently, I just treat the DB as a barrel of water with some apples in, and I madly bob my blindfolded face around until a find one. Hardly best practices.
