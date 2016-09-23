@@ -1,0 +1,18 @@
+= Days 00101101, 00101110, and 00101111
+:hp-tags: nightlife coordination
+
+Urgh!
+
+The last few days have been some of the most shamefully hacky days of my coding ventures. I've been implementing the '1 Going' button, which responds to clicks by registering the user's intention to go to the venue or not, and updates the button label and backend database accordingly.
+
+My first pass at this had me doing everything on the backend with POST routes and redirects. Needless to say this was slow and meant the page refreshed every time a button was pressed. This had the side effect of snapping back to the top of the screen, too, which is jarring if you are not already there.
+
+Today I swapped all that backend code out for ajax calls on the client side. This means the POST request is sent without the page needing to refresh, and since it is async, you can actually click three buttons in the time it takes for the first to complete and they all still end up in the database in one piece.
+
+I still rely on some pretty stupid hacks to simulate the updating of information on the client side. I don't actually read from the database to determine what the new value on the button should be. Instead, I store whether the user is going to that venue ahead of loading the page the first time, and then use that information to respond to if statements accordingly. So, if I know the user hasn't previously said they are going to a venue, when they click the button I update the value immediately on the trust that the POST request won't fail. Likewise, if they are cancelling their RSVP then I decrement the client rendered value on good faith that the POST will suceed that way. This means I get lightning fast responsiveness, but that response is actually a white lie. If it failed, you wouldn't know it...
+
+There is one bug to fix in that regard, but aside from that it works. It's hacky, but it works.
+
+The other thing I have been working on is the 'origin redirect'. What this is supposed to do is return you to the page you were previously using after you are asked to login. I actually started this part days ago, but I needed to the fix my origin URL and implement the AJAX stuff first for it to work. Once the AJAX stuff was in place the origin part was as simple as passing an extra value in the url query of the login page.
+
+It's been a dirty few days, but I'm hoping to have this project all sown up before the next Meetup. As much as I have been uninspired by this project, I have learned heaps and had lots of challenges to solve.
