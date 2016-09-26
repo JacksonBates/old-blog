@@ -1,0 +1,12 @@
+= Days 00110000 and 00110001
+:hp-tags: nightlife coordination
+
+Ok, the app is done. The bug fixes I anticipated from the last post were super easy to implement, so the only thing I had to really finish up was the CSS for the results page.
+
+The final app can be found here: https://nytelyfe.herokuapp.com
+
+Thanks to Pomello, I know that this took roughly 19 hours and 45 mins to complete over the last month. I'm surprised I didn't spend longer on it, but I remember some of the days this month was spent on Code Wars. Also, I habitually work through the pomodoro breaks, som there's probably a fair few undocumented 5 minute blocks added to the total.
+
+Next app is the Stock app, which will require some Web Socket wrangling, but no database stuff this time, so I'll put learning Mongoose on the backburner. I am tempted to use Ember in this next app, since I am starting to hate how EJS looks, and I suspect Ember handles data better and I think I'll prefer the handlebars style syntax in the templates.
+
+Before that, I might go back a refactor a previous project of some algorithms.
