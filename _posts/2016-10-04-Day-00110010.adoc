@@ -1,0 +1,20 @@
+= Day 00110010
+:hp-tags: personal project, emberjs
+
+I'm at the halfway point of the 100 days. Since I'm counting in binary, I may keep going up to 256...we'll see.
+
+I was chatting online to the creator of http://leafie.io the other day and it got me thinking that I should actually just dive in to my own personal project I've been thinking about for years now. I've always (i.e. for 4-5 years) wanted to add a gamification layer to classroom teaching along the lines of RPG XP acquisition and levelling up a character. I'm not the first to have thought of this, and there are already platforms that provide this, but I like the idea of building my own.
+
+I want to build my own primarily because the risk of gamification is that you remove intrinsic motivation from learning - which is BAD. So, I like the idea of rolling my own as a way to ensure the gamification/reward elements are just enough to provide fun and honour learning, without tipping the scale too far in the wrong direction f extrinsic motivation.
+
+There is a pretty nice implementation of the idea at http://classrealm.com which includes a paper-based version. I like the paper-based version a lot, and I've based the basic mechanics of my idea on that (with some variations). The creator of Classrealm did try to Kickstart a web-based version of the system, but to my mind they kind of overshot the original idea and proposed something way too heavy for my needs. It also seems to have stalled as a project, so maybe they bit off a little more than they could chew? The last word I found on it was one of the devs looking for an iOS developer to help them out. My implementation should be much more basic than their proposed idea, so I'm hoping to have a working prototype up before the Aussie school year starts in January.
+
+Anyway, I've started the planning and setting up of the project.
+
+I've decided to dive right into Ember with this project as well. It's more complicated than just using EJS as I have previously, but I've wanted to learn Ember for a couple of months now, and if I don't do it now, I propbably won't get around to it before going back to school next year.
+
+My first attempt at setting up Ember and Node on Heroku together made it immediately apparent to me that it's not as simple as running EJS templates on Express. In fact, it looks like what I will have to do is build out the backend API first and then build the Ember frontend on top of it as a separate project. There are complications involved in hosting Ember on Heroku, but I'll cross that bridge later. My first concern will be the RESTFUL backend.
+
+I'll keep you POSTed...
+
+GET it? 
