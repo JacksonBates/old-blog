@@ -1,0 +1,12 @@
+= Days 00110011 and 00110100
+:hp-tags: personal project, algorithm
+
+I've been a bit slack over the last few days, but I have written the database schema and implemented the basic passwordless authentication for my personal project.
+
+I need to work on building a more useful profile for users once they are authenticated, and that is causing some issues for me at the moment, but I expect the answer will come when I'm in the shower. It usually does.
+
+The really fun thing today has been a very simple algorithm challenge set by another camper on the FCC Forum. The algorithm is simple enough: Return the sum of all the numbers below n that are divisible by 3 or 5. But the challenge is to write the most effircient algorithm possible.
+
+In order to do this I have set up tests using Mocha and Chai, and I also have Benchmark tests to check the speed.
+
+So far I have come up with 5 different solutions to the same challenge, with vastly improved speeds. My most recent function is about x30 faster than the first one I wrote. I was blown away by the difference. I can't wait to see which algorith wins and what methods other people used.
