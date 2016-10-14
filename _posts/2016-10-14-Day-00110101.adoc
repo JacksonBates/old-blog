@@ -1,0 +1,11 @@
+= Day 00110101
+:hp-tags: personal project
+
+I've slowed progress on the Gamification app recently as I've been dabbling in some other areas as well. I had a FCC Melbourne Meetup talk to prep earlier in the week, and have also been playing a little more with Codewars and speedier algorithms relying on benchmark testing.
+
+I've also signed on to the MongoDB University M101JS course to review Mongo and pick up better practices for using it. The timing is a bit crap since the app I'm making uses Mongoose, but since the course is in real time I decided to jump on board now while it was available.
+
+The other thing that has been taking up my usual daytime coding window is Khan Academy. I've decided that it is time to stop putting off the Maths I wanted to do to prep myself for things like Harvard's CS50 course, or other algorithms classes. So I've gone back to basic Algebra and I'm working my way up from there. I'm aiming to spend a minimum of 30 mins every weekday on Khan Academy.
+
+I finally did some more work on the app today, so I'm only really counting today towards the 100 days. Today's coding was just to set up some simple views and routes for creating user profiles. Next time I'll have to either create some Mongoose static methods or find otherways to integrate Passwordless for more complex login scenarios - i.e. recognising a user and allowing them to access their user profiles etc...
+
