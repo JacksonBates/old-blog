@@ -1,0 +1,16 @@
+= Day ???
+
+Urgh.
+
+Ok, so I didn't keep up with the updates in a day-by-day fashion. So I'm canning the daily updates.
+
+I've shelved the gamification project since I started to suspect I wouldn't actually want to use it in any of my own classes. I left some notes in the repo, should I decide to pick up the thread again.
+
+I have since made a little React app for helping people find pair programming buddies. It felt good to overcome my hatred of React and see something through with it.
+
+http://pairboard.surge.sh
+
+I have also joined the Red-Pandas Chingu cohort, so I'll be openning the pair app to further contributions from them :)
+
+I have just started a new game dev challenge, too. For this challenge I've assembled a team of people with no experience developing games or working on teams before...so we'll muddle through and see how far we get.
+
