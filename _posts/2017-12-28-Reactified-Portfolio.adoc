@@ -1,0 +1,11 @@
+# Reactified Portfolio
+
+I previously had a Bootstrap portfolio, but it was becoming a pain to maintain. Everytime I had a new project to add to it, I'd have to manually build the new page elements.
+
+Since I was following a de facto template anyway, I figured React would present a nicer solution, as it would allow me to just fill up a component with data for each new project.
+
+I'm pretty happy with the way it turned out (so far), but realistically the time I shaved off updating Bootstrap boilerplate has just been replaced with updating a JSON file and then pushing a re-bundled production version of the site to GitHub Pages.
+
+You can see the new site here: https://jacksonbates.github.io
+
+Screenshots will be added to the portfolio soon...
