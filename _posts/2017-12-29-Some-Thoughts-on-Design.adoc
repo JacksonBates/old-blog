@@ -1,0 +1,15 @@
+= Some Thoughts on Design
+
+In order to create better websites and web apps I intend to really put some time into improving my design skills and knowledge this year.
+
+To that end, I am reading https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195[CSS: The Definitive Guide: Visual Presentation for the Web], which is excellent so far, and working through https://hackdesign.org[Hack Design].
+
+The reading for Hack Design's https://hackdesign.org/lessons/1[first lesson] pointed me to one tip that really stood out and has started to affect me quite profoundly already.
+
+One of the reading list articles for the lesson, https://web.archive.org/web/20160806215332/http://somerandomdude.com/2012/01/10/transition-from-development-to-design/['Making the transition from developer to designer'], offers the tip:
+____
+Design everything you do.
+____
+This advice comes with the suggestion to view all decisions and actions through the lens of design choices. For example, how you hold yourself in conversation should be 'designed' to add to the message you seek to communicate. Ultimately, all choices should be intentional and purposeful.
+
+This lead me to realise that I have been deferring to my wife's decision making over the last few yearsside from the problematic impact this has on the balance of emotional labour in our relationship, 
