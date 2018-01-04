@@ -2,18 +2,30 @@
   "meta": {
     "username": "JacksonBates",
     "repositoryName": "blog",
-    "branch": "gh-pages"
+    "branch": "gh-pages",
+    "cname": ""
   },
   "site": {
     "title": "Adventures in Code",
     "postsPerPage": "100",
     "googleAnalytics": "UA-80704400-1",
-    "disqus": "jacksonbatesme"
+    "disqus": "jacksonbatesme",
+    "description": "",
+    "logo": "",
+    "cover": "",
+    "delay": ""
   },
   "socialnetwork": {
     "email": "jacksonbates@hotmail.com",
     "twitter": "http://twitter.com/jacksonbates",
-    "github": "http://github.com/JacksonBates"
+    "github": "http://github.com/JacksonBates",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "https://www.instagram.com/jacksonbates/",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "",
+    "stackoverflow": ""
   },
   "theme": {
     "name": "roon"
