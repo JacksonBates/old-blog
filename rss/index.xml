@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Adventures in Code]]></title><description><![CDATA[Adventures in Code]]></description><link>https://JacksonBates.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 04 Jan 2018 12:09:22 GMT</lastBuildDate><atom:link href="https://JacksonBates.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Some Thoughts on Design]]></title><description><![CDATA[<div class="paragraph">
+<p>In order to create better websites and web apps I intend to really put some time into improving my design skills and knowledge this year.</p>
+</div>
+<div class="paragraph">
+<p>To that end, I am reading <a href="https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195">CSS: The Definitive Guide: Visual Presentation for the Web</a>, which is excellent so far, and working through <a href="https://hackdesign.org">Hack Design</a>.</p>
+</div>
+<div class="paragraph">
+<p>The reading for Hack Design&#8217;s <a href="https://hackdesign.org/lessons/1">first lesson</a> pointed me to one tip that really stood out and has started to affect me quite profoundly already.</p>
+</div>
+<div class="paragraph">
+<p>One of the reading list articles for the lesson, <a href="https://web.archive.org/web/20160806215332/http://somerandomdude.com/2012/01/10/transition-from-development-to-design/">'Making the transition from developer to designer'</a>, offers the tip:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Design everything you do.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>This advice comes with the suggestion to view all decisions and actions through the lens of design choices. For example, how you hold yourself in conversation should be 'designed' to add to the message you seek to communicate. Ultimately, all choices should be intentional and purposeful.</p>
+</div>
+<div class="paragraph">
+<p>This lead me to realise that I have been deferring to my wife&#8217;s decision making over the last few years. This is problematic partly due to the impact this has on the balance of emotional labour in our relationship, and also because it has no doubt blunted my ability to make intentional decisions, and therefore practice 'designing everything.'</p>
+</div>
+<div class="paragraph">
+<p>I had been quite dismissive of some of what I had deemed to be superficial aspects of design in the past, including to do with fashion and home decor. As I talked about this more and more with my wife today, though, it began to dawn on me that what I had previously written off as just, for example, fashion, was in fact much more:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Fashion is communication, psychology, and even community.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>My initial readings for Hack Design have not only given me a lot to think about in terms of design, but the practice of making intentional decisions about everything I have done today has forced me to be much more mindful, in ways that years of being encouraged to be mindful never seemed to actually achieve.</p>
+</div>
+<div class="paragraph">
+<p>As a result, rather strangely, I have been in a much better mood than usual today, and have felt tangible improvements in my mental health.</p>
+</div>
+<div class="paragraph">
+<p>Who knew a simple introduction to design thinking could have such an effect?</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2017/12/29/Some-Thoughts-on-Design.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2017/12/29/Some-Thoughts-on-Design.html</guid><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Fri, 29 Dec 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Reactified Portfolio]]></title><description><![CDATA[<div class="paragraph">
+<p>I previously had a Bootstrap portfolio, but it was becoming a pain to maintain. Everytime I had a new project to add to it, I&#8217;d have to manually build the new page elements.</p>
+</div>
+<div class="paragraph">
+<p>Since I was following a de facto template anyway, I figured React would present a nicer solution, as it would allow me to just fill up a component with data for each new project.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m pretty happy with the way it turned out (so far), but realistically the time I shaved off updating Bootstrap boilerplate has just been replaced with updating a JSON file and then pushing a re-bundled production version of the site to GitHub Pages.</p>
+</div>
+<div class="paragraph">
+<p>You can see the new site here: <a href="https://jacksonbates.github.io" class="bare">https://jacksonbates.github.io</a></p>
+</div>
+<div class="paragraph">
+<p>Screenshots will be added to the portfolio soon&#8230;&#8203;</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2017/12/28/Reactified-Portfolio.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2017/12/28/Reactified-Portfolio.html</guid><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Thu, 28 Dec 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day ???]]></title><description><![CDATA[<div class="paragraph">
+<p>Urgh.</p>
+</div>
+<div class="paragraph">
+<p>Ok, so I didn&#8217;t keep up with the updates in a day-by-day fashion. So I&#8217;m canning the daily updates.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ve shelved the gamification project since I started to suspect I wouldn&#8217;t actually want to use it in any of my own classes. I left some notes in the repo, should I decide to pick up the thread again.</p>
+</div>
+<div class="paragraph">
+<p>I have since made a little React app for helping people find pair programming buddies. It felt good to overcome my hatred of React and see something through with it.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://pairboard.surge.sh" class="bare">http://pairboard.surge.sh</a></p>
+</div>
+<div class="paragraph">
+<p>I have also joined the Red-Pandas Chingu cohort, so I&#8217;ll be openning the pair app to further contributions from them :)</p>
+</div>
+<div class="paragraph">
+<p>I have just started a new game dev challenge, too. For this challenge I&#8217;ve assembled a team of people with no experience developing games or working on teams before&#8230;&#8203;so we&#8217;ll muddle through and see how far we get.</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/11/28/Day.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/11/28/Day.html</guid><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 28 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00110101]]></title><description><![CDATA[<div class="paragraph">
+<p>I&#8217;ve slowed progress on the Gamification app recently as I&#8217;ve been dabbling in some other areas as well. I had a FCC Melbourne Meetup talk to prep earlier in the week, and have also been playing a little more with Codewars and speedier algorithms relying on benchmark testing.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ve also signed on to the MongoDB University M101JS course to review Mongo and pick up better practices for using it. The timing is a bit crap since the app I&#8217;m making uses Mongoose, but since the course is in real time I decided to jump on board now while it was available.</p>
+</div>
+<div class="paragraph">
+<p>The other thing that has been taking up my usual daytime coding window is Khan Academy. I&#8217;ve decided that it is time to stop putting off the Maths I wanted to do to prep myself for things like Harvard&#8217;s CS50 course, or other algorithms classes. So I&#8217;ve gone back to basic Algebra and I&#8217;m working my way up from there. I&#8217;m aiming to spend a minimum of 30 mins every weekday on Khan Academy.</p>
+</div>
+<div class="paragraph">
+<p>I finally did some more work on the app today, so I&#8217;m only really counting today towards the 100 days. Today&#8217;s coding was just to set up some simple views and routes for creating user profiles. Next time I&#8217;ll have to either create some Mongoose static methods or find otherways to integrate Passwordless for more complex login scenarios - i.e. recognising a user and allowing them to access their user profiles etc&#8230;&#8203;</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/10/14/Day-00110101.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/10/14/Day-00110101.html</guid><category><![CDATA[personal project]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Fri, 14 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00110011 and 00110100]]></title><description><![CDATA[<div class="paragraph">
+<p>I&#8217;ve been a bit slack over the last few days, but I have written the database schema and implemented the basic passwordless authentication for my personal project.</p>
+</div>
+<div class="paragraph">
+<p>I need to work on building a more useful profile for users once they are authenticated, and that is causing some issues for me at the moment, but I expect the answer will come when I&#8217;m in the shower. It usually does.</p>
+</div>
+<div class="paragraph">
+<p>The really fun thing today has been a very simple algorithm challenge set by another camper on the FCC Forum. The algorithm is simple enough: Return the sum of all the numbers below n that are divisible by 3 or 5. But the challenge is to write the most effircient algorithm possible.</p>
+</div>
+<div class="paragraph">
+<p>In order to do this I have set up tests using Mocha and Chai, and I also have Benchmark tests to check the speed.</p>
+</div>
+<div class="paragraph">
+<p>So far I have come up with 5 different solutions to the same challenge, with vastly improved speeds. My most recent function is about x30 faster than the first one I wrote. I was blown away by the difference. I can&#8217;t wait to see which algorith wins and what methods other people used.</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/10/10/Days-00110011-and-00110100.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/10/10/Days-00110011-and-00110100.html</guid><category><![CDATA[personal project]]></category><category><![CDATA[ algorithm]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 10 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00110010]]></title><description><![CDATA[<div class="paragraph">
+<p>I&#8217;m at the halfway point of the 100 days. Since I&#8217;m counting in binary, I may keep going up to 256&#8230;&#8203;we&#8217;ll see.</p>
+</div>
+<div class="paragraph">
+<p>I was chatting online to the creator of <a href="http://leafie.io" class="bare">http://leafie.io</a> the other day and it got me thinking that I should actually just dive in to my own personal project I&#8217;ve been thinking about for years now. I&#8217;ve always (i.e. for 4-5 years) wanted to add a gamification layer to classroom teaching along the lines of RPG XP acquisition and levelling up a character. I&#8217;m not the first to have thought of this, and there are already platforms that provide this, but I like the idea of building my own.</p>
+</div>
+<div class="paragraph">
+<p>I want to build my own primarily because the risk of gamification is that you remove intrinsic motivation from learning - which is BAD. So, I like the idea of rolling my own as a way to ensure the gamification/reward elements are just enough to provide fun and honour learning, without tipping the scale too far in the wrong direction f extrinsic motivation.</p>
+</div>
+<div class="paragraph">
+<p>There is a pretty nice implementation of the idea at <a href="http://classrealm.com" class="bare">http://classrealm.com</a> which includes a paper-based version. I like the paper-based version a lot, and I&#8217;ve based the basic mechanics of my idea on that (with some variations). The creator of Classrealm did try to Kickstart a web-based version of the system, but to my mind they kind of overshot the original idea and proposed something way too heavy for my needs. It also seems to have stalled as a project, so maybe they bit off a little more than they could chew? The last word I found on it was one of the devs looking for an iOS developer to help them out. My implementation should be much more basic than their proposed idea, so I&#8217;m hoping to have a working prototype up before the Aussie school year starts in January.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, I&#8217;ve started the planning and setting up of the project.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ve decided to dive right into Ember with this project as well. It&#8217;s more complicated than just using EJS as I have previously, but I&#8217;ve wanted to learn Ember for a couple of months now, and if I don&#8217;t do it now, I propbably won&#8217;t get around to it before going back to school next year.</p>
+</div>
+<div class="paragraph">
+<p>My first attempt at setting up Ember and Node on Heroku together made it immediately apparent to me that it&#8217;s not as simple as running EJS templates on Express. In fact, it looks like what I will have to do is build out the backend API first and then build the Ember frontend on top of it as a separate project. There are complications involved in hosting Ember on Heroku, but I&#8217;ll cross that bridge later. My first concern will be the RESTFUL backend.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ll keep you POSTed&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>GET it?</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/10/04/Day-00110010.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/10/04/Day-00110010.html</guid><category><![CDATA[personal project]]></category><category><![CDATA[ emberjs]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Tue, 04 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00110000 and 00110001]]></title><description><![CDATA[<div class="paragraph">
+<p>Ok, the app is done. The bug fixes I anticipated from the last post were super easy to implement, so the only thing I had to really finish up was the CSS for the results page.</p>
+</div>
+<div class="paragraph">
+<p>The final app can be found here: <a href="https://nytelyfe.herokuapp.com" class="bare">https://nytelyfe.herokuapp.com</a></p>
+</div>
+<div class="paragraph">
+<p>Thanks to Pomello, I know that this took roughly 19 hours and 45 mins to complete over the last month. I&#8217;m surprised I didn&#8217;t spend longer on it, but I remember some of the days this month was spent on Code Wars. Also, I habitually work through the pomodoro breaks, som there&#8217;s probably a fair few undocumented 5 minute blocks added to the total.</p>
+</div>
+<div class="paragraph">
+<p>Next app is the Stock app, which will require some Web Socket wrangling, but no database stuff this time, so I&#8217;ll put learning Mongoose on the backburner. I am tempted to use Ember in this next app, since I am starting to hate how EJS looks, and I suspect Ember handles data better and I think I&#8217;ll prefer the handlebars style syntax in the templates.</p>
+</div>
+<div class="paragraph">
+<p>Before that, I might go back a refactor a previous project of some algorithms.</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/26/Days-00110000-and-00110001.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/26/Days-00110000-and-00110001.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 26 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00101101, 00101110, and 00101111]]></title><description><![CDATA[<div class="paragraph">
+<p>Urgh!</p>
+</div>
+<div class="paragraph">
+<p>The last few days have been some of the most shamefully hacky days of my coding ventures. I&#8217;ve been implementing the '1 Going' button, which responds to clicks by registering the user&#8217;s intention to go to the venue or not, and updates the button label and backend database accordingly.</p>
+</div>
+<div class="paragraph">
+<p>My first pass at this had me doing everything on the backend with POST routes and redirects. Needless to say this was slow and meant the page refreshed every time a button was pressed. This had the side effect of snapping back to the top of the screen, too, which is jarring if you are not already there.</p>
+</div>
+<div class="paragraph">
+<p>Today I swapped all that backend code out for ajax calls on the client side. This means the POST request is sent without the page needing to refresh, and since it is async, you can actually click three buttons in the time it takes for the first to complete and they all still end up in the database in one piece.</p>
+</div>
+<div class="paragraph">
+<p>I still rely on some pretty stupid hacks to simulate the updating of information on the client side. I don&#8217;t actually read from the database to determine what the new value on the button should be. Instead, I store whether the user is going to that venue ahead of loading the page the first time, and then use that information to respond to if statements accordingly. So, if I know the user hasn&#8217;t previously said they are going to a venue, when they click the button I update the value immediately on the trust that the POST request won&#8217;t fail. Likewise, if they are cancelling their RSVP then I decrement the client rendered value on good faith that the POST will suceed that way. This means I get lightning fast responsiveness, but that response is actually a white lie. If it failed, you wouldn&#8217;t know it&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>There is one bug to fix in that regard, but aside from that it works. It&#8217;s hacky, but it works.</p>
+</div>
+<div class="paragraph">
+<p>The other thing I have been working on is the 'origin redirect'. What this is supposed to do is return you to the page you were previously using after you are asked to login. I actually started this part days ago, but I needed to the fix my origin URL and implement the AJAX stuff first for it to work. Once the AJAX stuff was in place the origin part was as simple as passing an extra value in the url query of the login page.</p>
+</div>
+<div class="paragraph">
+<p>It&#8217;s been a dirty few days, but I&#8217;m hoping to have this project all sown up before the next Meetup. As much as I have been uninspired by this project, I have learned heaps and had lots of challenges to solve.</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Fri, 23 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00101100]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Making some progress with the nightlife app today. I&#8217;m still pretty uninspired by it, but I&#8217;ve been problem solving some quirky issues with reading and parsing data that have been interesting to solve. I&#8217;m treating the records like the polls in the last app - which is an admittedly hacky way of doing it.</p>
+</div>
+<div class="paragraph">
+<p>My thinking behind this was that I only wanted to save a venue in the database if a user had stated they were going, but I didn&#8217;t want to replicate details from the Yelp API. So what I am doing is only saving a list of email addresses attached to specific yelp IDs.</p>
+</div>
+<div class="paragraph">
+<p>I do a quick query to check the 20 Yelp objects and see if I have any records for them in my lazy database. If I do, then I do a count of the email addresses on the page.</p>
+</div>
+<div class="paragraph">
+<p>It&#8217;s leading to some excruciatingly ugly EJS, but it is functioning as required.</p>
+</div>
+<div class="paragraph">
+<p>I think in my next project I am going to use Mongoose and aim for a more robust approach to handling my database model. Currently, I just treat the DB as a barrel of water with some apples in, and I madly bob my blindfolded face around until a find one. Hardly best practices.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/19/Day-00101100.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/19/Day-00101100.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 19 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00101010 and 00101011]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The last couple of days, I&#8217;ve been writing a piece for the Free Code Camp Medium publication. The piece has lots of code snippets in it and the experience of writing code in a non-highlighted text window is really unsettling. Checking for parentheses and braces is really tricky. It made me much more appreciative of VS Code and all the other editors I&#8217;ve used over the years.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_csrf_security_concerns">CSRF security concerns</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>One thing I had to do before sending the article in for review was address a security concern a fellow camper sent me on the forum. It related to this post: <a href="https://fosterelli.co/dangerous-use-of-express-body-parser.html">Dangerous use of Express body parser</a>. The fix was reasonably easy, but it was good to learn about that issue.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_code_wars">Code Wars</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Something that gets periodically mentioned on the FCC Forum is an algorith challenge website called <a href="http://codewars.com">Code Wars</a>. I have finally signed up and started working through challenges. So far I am still ranked quite low, but I got myself off the bottom of the FCC clan leaderboard at least.</p>
+</div>
+<div class="paragraph">
+<p>The thing I like about Code Wars at the moment is that it presents more algorithms than FCC, and there are more to do at my current level of ability. I still have some Advanced algorithms to do in the FCC curicculum, and while I could conceivably do them, they are of the type that will likely take me a lot of time to solve. At the moment I would rather work more productively on my apps than burn a couple of weeks finishing the Advanced Algorithms, so Code Wars presents a nice middle ground of fresh algorithms to do when I fancy a challenge, without having to commit so much time to solving them.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/18/Days-00101010-and-00101011.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/18/Days-00101010-and-00101011.html</guid><category><![CDATA[passwordless]]></category><category><![CDATA[ medium]]></category><category><![CDATA[ CSRF]]></category><category><![CDATA[codewars]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Sun, 18 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00101001]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Some success today! I managed to get SparkPost fully integrated and it seems to be working well with Passwordless. The lag I was experiencing with emailjs and what I suspected was the slow TLS encryption seems to not be an issue with SP, and it&#8217;s nice to have emails being sent from a personal domain rather than an Outlook account - it feels a little more professional.</p>
+</div>
+<div class="paragraph">
+<p>I did have an odd bug where the email sending would hang and not move on to rendering the 'sent' page, but after reading the code a little more closely it was just a poxy closing parenthesis that was missing.</p>
+</div>
+<div class="paragraph">
+<p>I still need to test it on Heroku to ensure the lag is fully gone, and then need to start handling my users more appropriately with a user database, but the implementation friction with Passwordless was once again trivial compared to Passport, and SparkPost was a nice improvement over emailjs.</p>
+</div>
+<div class="paragraph">
+<p><strong>Update</strong></p>
+</div>
+<div class="paragraph">
+<p>It works well on Heroku with no lag! I feel totally vindicated for switching!</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/15/Day-00101001.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/15/Day-00101001.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Thu, 15 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day, well let's just call it 00101000...]]></title><description><![CDATA[<div class="paragraph">
+<p>I&#8217;ve been a bit all over the place this week and not really tracking my coding that well. So for the sake of simplicity I&#8217;ll just count all of the work since the last post as a single day&#8230;&#8203;most of it turned out to be a write off anyway.</p>
+</div>
+<div class="paragraph">
+<p>As predicted, I have decided to put Passport and the necessary Mongoose implementation required to follow Passport tutorials in the 'too-hard-basket' for this project, and I&#8217;m going to go back to Passwordless authentication.</p>
+</div>
+<div class="paragraph">
+<p>I will use passport in the next project, but I&#8217;ll take the time to really get Mongoose straight in my head first and then diligently follow the tutes like a good little boy.</p>
+</div>
+<div class="paragraph">
+<p>I did get my Sparkpost account up and running, which was a little complicated by needing to hook up the sending domain and messing with some DNS records for jacksonbates.me, but I think I should be able to get it configured easily enough once I&#8217;m ready to sit down to it again.</p>
+</div>
+<div class="paragraph">
+<p>Last night I gave a lightning talk at the FCC Melbourne Meetup, which was a nice experience. I bagged out LinkedIn a fair bit in my talk, but ironically came away from the eveingin with a handful of new LinkedIn contacts all the same! In preparation for the talk I made my slides in reveal.js and hacked together a little dynamic front-page for the repo I will store future reveal slide decks in. It uses the GitHub API to get the files from the repo and then parses those for any ending in <code>.html</code> before adding them to the page using jQuery. It&#8217;s really reminiscent of the intermediate frontend projects from FCC, but it was a nice little side project to work on and only took an hour or so to implement once I had researched the API.</p>
+</div>
+<div class="paragraph">
+<p>I should get into a proper coding session tomorrow night, so hopefully I&#8217;ll have the Passwordless authentication set up by then and can finish this project.</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/14/Day-well-lets-just-call-it-00101000.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/14/Day-well-lets-just-call-it-00101000.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Wed, 14 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00100111]]></title><description><![CDATA[<div class="paragraph">
+<p>Super frustrating day trying to work with PassportJS today. The docs are pretty patchy and I can&#8217;t seem to get it working the way I want. After about 2 hours of messing around I&#8217;ve managed to get a user authenticated and have a FB profile object returned, but doing anything with that is proving quite tricky.</p>
+</div>
+<div class="paragraph">
+<p>I am very tempted to ditch Passport and instead return to Passwordless. Maybe this time I&#8217;ll use Sparkpost for the email delivery, just so I&#8217;m learning something new.</p>
+</div>
+<div class="paragraph">
+<p>I only really wanted to see what Passport was like to work with, but I think philosophically I am more interested in relying on Passwordless. I do know people with no FB account, but I don&#8217;t know anyone without an email address, so from a purely practical position of being able to reach more people Passwordless is the better choice. I think wasting any more time on Passport is just going to annoy me and not really have any payoff for me.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ll see how I feel about it in the morning.</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/06/Day-00100111.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/06/Day-00100111.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Tue, 06 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00100110]]></title><description><![CDATA[<div class="paragraph">
+<p>I&#8217;ve spent a total of 2:15 on the search results CSS, with some minor tweeks to the search form page too. I&#8217;m pretty happy with it at the moment, even if it is quite simple.</p>
+</div>
+<div class="paragraph">
+<p>The next step is to integrate authentication. I am looking at PassportJS for this project, but configuring it seems a trifle annoying, so I will save it for tomorrow morning, I think.</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/05/Day-00100110.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/05/Day-00100110.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 05 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00100101]]></title><description><![CDATA[<div class="paragraph">
+<p>Not much to report just yet. Only an hour spent coding after being away for the weekend, and still working on the CSS for the search results page. I&#8217;m getting the hang of some of the positioning quirks with flexbox and working out when it is more appropriate to use floats and older style positioning.</p>
+</div>
+<div class="paragraph">
+<p>I am moving very slowly with this at the moment. If I had implememented this in Bootstrap I would be halfway through the next project already, but hand crafting all of the CSS is really giving me an appreciation of how to do CSS from scratch properly.</p>
+</div>
+<div class="paragraph">
+<p>I think I will also have to go through and make sure all of my vendor prefixing is correct as well, since that is something I&#8217;ve been lax with in all my previous efforts (since frameworks usually do the heavy lifting there as well!).</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/05/Day-00100101.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/05/Day-00100101.html</guid><category><![CDATA[nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 05 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00100100]]></title><description><![CDATA[<div class="paragraph">
+<p>Today is day 36, which in binary is 00100100. Aside from being a nice looking binary number (especially if you ditch the zero padding: 100100), it is also Bender&#8217;s apartment number. It represents the ASCII code for <code>$</code>, hence Bender&#8217;s affinity for it. The more you know&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Anyway,  Pomello reliably informs me that I spent 55 minutes working on the search page for the nightlife coordination app. This would have been a trivially easy thing to do with Bootstrap or Materialize, but since I am rolling my own CSS with Sass and Flexbox for this project, styling every little thing took a lot of tweaking. At the moment it is literally just a single text input and a submit button, and it still took nearly an hour!</p>
+</div>
+<div class="paragraph">
+<p>After that I spent about another 45 minutes massaging the Yelp API into providing some usable data and making sure I could spit it out on a views page. That all works nicely, but the next step will be to style that, and given the painstaking tweaking a simple form took, I think that job is gonna lead to a long night!</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/09/02/Day-00100100.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/09/02/Day-00100100.html</guid><category><![CDATA[Bender's apartment]]></category><category><![CDATA[ nightlife coordination]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Fri, 02 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00100010 and 00100011]]></title><description><![CDATA[<div class="paragraph">
+<p>I have spent the last two days holding off on the nightlife app, since I wanted to learn a little about flexbox and get started using Sass. I want to use both of those in this project, but didn&#8217;t want the cognitive overhead of learning those and solving the regular problems of the app functionality. So I ended up watching a bunch of Wes Bos videos and then tried to refactor my weather app.</p>
+</div>
+<div class="paragraph">
+<p>I got rid of Bootstrap and nuked the existing CSS so I could redo the whole design. I found some nice Flat icons for the weather icons and stole a colour pallete from colorlovers as well, so even though it is a very simple design, I think it is a lot more strinking and professional looking than the previous iteration.</p>
+</div>
+<div class="paragraph">
+<p>You can see the Flexy Sassy Version at <a href="http://jacksonbates.me/fcc-local-weather" class="bare">http://jacksonbates.me/fcc-local-weather</a></p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/31/Days-00100010-and-00100011.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/31/Days-00100010-and-00100011.html</guid><category><![CDATA[flexbox]]></category><category><![CDATA[ sass]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Wed, 31 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00100001]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>So yesterday I was talking up how much more complex I was going to make this next project, but now that I am starting it, it really isn&#8217;t that interesting an app. I think I would rather just meet the existing user stories and then move on to a more interesting one.</p>
+</div>
+<div class="paragraph">
+<p>The thing I have enjoyed, though, is the use of the Pomello app for Trello. I don&#8217;t really care about the Pomodoro aspect of it, but precisely timing each discrete task is very appealing to me. I now know, for example, that it took me 55 minutes to get the Yelp API to print something useful to the console. It is worth pointing out that that is with a script copy-pasta&#8217;d from t&#8217;internet. Who knows how long it would have taken if I had tried to figure out Oauth secret key generation solo.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, Pomello reliably informs me that I coded for 2:11 tonight, so it&#8217;s time for bed.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/29/Day-00100001.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/29/Day-00100001.html</guid><category><![CDATA[nightlife coordination]]></category><category><![CDATA[ productivity]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 29 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00011110, 00011111 and 00100000]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>It&#8217;s hard to recall what I did for the last three days, but luckily my git commits can remind me!</p>
+</div>
+<div class="paragraph">
+<p>Day 30 was just about adding the my polls route to the app and the views and logic that went with that. I tried to get a nice hoverable link list with secondary content for the poll delete button using Materialize, but it seems Materialize doesn&#8217;t allow for the links in collections to have secondary content. I kept finding the buttons were moving down on to the next line, and couldn&#8217;t figure out why. In the end, I hacked together my own hoverable class for the appropriate elements to emulate the effect I wanted. I wasted a fair bit of time figuring that outm though.</p>
+</div>
+<div class="paragraph">
+<p>On day 31 (yesterday) I submitted my app for review on the forum and got some nice quick feedback on the effects of not validating form entry, since a user couldn&#8217;t figure out how to get past the login screen. So I added the login. I also added some dynamic social media sharing buttons and did the last tweaks to make it complete. I added some extra pages, like a 404 and privacy policy, fixed the mobile responsiveness issues I was having, and added a nifty algorithm to the my-polls page to give a snapshot of the leading option in each poll.</p>
+</div>
+<div class="paragraph">
+<p>Today I went back to include the final user story I was refusing to add previoulsy due to protest! The original user stories include the 'feature' that if a user does not like the options in a poll, they can add a custom one. I actually think that is a terrible idea for a voting app, but I went ahead and put it in anyway, just to tick the box. I took the opportunity to add another form validation script, since the added complexity of the vote form meant it had become possible to throw server errors if use input wasn&#8217;t carefully vetted. For some reason, one of the cases in my validation script slips by mobile Safari, so I added a simple server response for that case. The rest of it is all handled with very nice Materialize 'Toasts.' I really like Materialize!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_s_next">What&#8217;s next?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The next project is supposed to be a 'nightlife coordination app' but the example project is pretty banal. It&#8217;s basically an app that read the Yelp api for local bars and lets users tick the ones they are going to. It&#8217;s pretty poorly thought out in the example though, because while it is supposed to be about 'tonight' there is no mechanism for determining date in the app! So all the 'going' votes are persistent. It is also supposed to be about coordinating friends, and yet there is no mechanism for 'friending' people. The app assumes, I guess, that only your friends have the url, but I think account information could group people more effectively. The project app actually seems pretty easy, so I&#8217;m planning to add a few features to improve the usability.</p>
+</div>
+<div class="paragraph">
+<p>Hopefully&#8230;&#8203;</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/28/Days-00011110-00011111-and-00100000.html</guid><category><![CDATA[Voting app]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Sun, 28 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00011101]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve been super productive today and I am loving this project!</p>
+</div>
+<div class="paragraph">
+<p>Today I implemented the majority of the user interaction, I think. I am still deciding whether I should allow voters to create new options, or whether the poll creator should have the right to decide that. I think I&#8217;m leaning towards creator discretion, and that will be the trickiest to implement, so I might save it for an advanced feature.</p>
+</div>
+<div class="paragraph">
+<p>I also currently redirect from the poll creation page to the home page, but the vote page for the newly created poll would be the more logical choice. The trouble with this is that the page redirect relies on the id string for the database document that is only created when the document is inserted. I&#8217;m sure there is a way of getting that ID, but I haven&#8217;t tried to figure it out yet.</p>
+</div>
+<div class="paragraph">
+<p>Incrementing the vote count in the arrays proved to be a little tricky, since I was having to dynamically increment the vote by the array index, and passing that into a Mongo DB is not that intuitive. You can&#8217;t pass a variable into a Mongo document as a field, because it reads it as a string and creates a weird new field instead of updating the one intended. It turns out you can construct an fully formed object including the dynamic field name and corresponding value (or increment) outside of the query with a little magic. Took a fair bit of Googling to figure that one out, but no where near as much of a road block as emailjs was.</p>
+</div>
+<div class="paragraph">
+<p>On the topic of emailjs, I am finding the throttled speed of the email delivery to be very annoying. As much as I want to provide passwordless authentication, if it comes at the cost of this massive speed bump, I may just implement a different authentication method. I&#8217;ll get some feedback from the FCC forum nearer completion before making that decision.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/25/Day-00011101.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/25/Day-00011101.html</guid><category><![CDATA[voting app]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Thu, 25 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00011011 and 00011100]]></title><description><![CDATA[<div class="paragraph">
+<p>Work on the Voting app is roaring along!</p>
+</div>
+<div class="paragraph">
+<p>Implementing passwordless authentication has not been without its issues, but mainly due to token delivery. I&#8217;m using <code>emailjs</code> to handle the emails, and I spent several hours last night and then again today trying to troubleshoot it.</p>
+</div>
+<div class="paragraph">
+<p>Firstly, I was having difficulties reading the email account password from environment variables. I tried both native environment variables (for Linux and Heroku) and the npm <code>dotenv</code> package to no avail. I didn&#8217;t want to have to hard-code my credentials into the files that would be sitting in a public git repo&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Secondly, Gmail did not like me using an unregistered app to send emails. It took me a long time to realise that. By the time someone mentioned that to me, I had already switched to Outlook.</p>
+</div>
+<div class="paragraph">
+<p>I eventually got around the dotenv issues by coming up with fresh variable names, and I also suspect I had missing parentheses in my <code>require('dotenv').config()</code> call at the top of my <code>server.js</code>. And jumping from Gmail to Outlook made things much easier for me as well. Once again, Microsoft are the ones making the software that actually works and gets out of my way. To date, I have had the most luck with the Bing API, VS Code and now Outlook over their competitors. It should be noted, I would probably still be a huge Windows 10 fan, had I not irretrievably nerfed the boot loader and had to permanently migrate to Ubuntu!</p>
+</div>
+<div class="paragraph">
+<p>After those hiccups, getting <code>passwordless</code> working was trivially easy by comparison, and I&#8217;ve had a lot of fun tinkering with <code>chartjs</code>. Incidentally, I had to install <code>browserify</code> and learn what it does in order to import <code>chartjs</code> on the client side, and it&#8217;s given me a small taste of Grunt / Gulp that I will probably get into more in the not-too-distant future. I had some fun little challenges to overcome with the charts, like how to ensure the varied length options / voteCount arrays would have the correct number of coloured bars in the chart. I solved that by making a random colour generator that determines the barchart colours on the fly. Pretty simple, but also the first thing I feel like I actually built to solve a problem recently, rather than just npm installing various packages and copy-pasting some quickstart snippets from their README.md to get stuff done.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, I&#8217;m pretty happy with my progress on the app so far. It&#8217;s taking shape well. The next step it to allow users to vote on the polls. The user story for the project says that unathenticated users should be allowed to vote - but I disagree, so I will be breaking that rule!</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/24/Days-00011011-and-00011100.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/24/Days-00011011-and-00011100.html</guid><category><![CDATA[emailjs]]></category><category><![CDATA[ passwordless]]></category><category><![CDATA[ chartjs]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Wed, 24 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00011001 and 00011010]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The past two days have seen me complete the Symmetric Difference algorithm and start work on the Voting App project.</p>
+</div>
+<div class="paragraph">
+<p>I was putting off the app until I had learned a front end framework, but since I couldn&#8217;t get on with React and since Angular2 is still so finicky, I decided to just use what I know: Node, Mongo, Express and good 'ol HTML.</p>
+</div>
+<div class="paragraph">
+<p>I am a little perplexed by the schema for non-relational databases when they allow for dynamic 'columns' in 'tables' (I know Mongo does not use tables, but it&#8217;s hard to shake that RDBMS hangup). I think I have a sensible approach, but I will have to wait and see if my assumptions about how I&#8217;ll be able to manipulate the JSON documents is correct.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_coding_music">Coding music</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Incidentally, I have started listing to a new Pandora station seeded with Groove Armada while coding. It&#8217;s ace, and really takes me back to my teens. Lots of Moorcheeba, Massive Attack, Sneaker Pimps and Portishead! I absolutely love it!</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/22/Days-00011001-and-00011010.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/22/Days-00011001-and-00011010.html</guid><category><![CDATA[algorithms]]></category><category><![CDATA[ voting app]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 22 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00011000]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_i_killed_my_computer">I killed my computer</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I tried to update Windows 10, and through a series of misadventures, I completely bricked my laptop. Essentially, I destroyed the bootloader. The only thing I could do was load a clean Ubuntu install onto it and say goodbye to Windows. It turns out the 'recovery' drive I&#8217;ve had sitting in a draw in case of emergencies, doesn&#8217;t actually help you recover&#8230;&#8203;</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hello_ubuntu">Hello Ubuntu</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>So after my failed attempt at getting into Linux last month, I decided to scale back the ambition and go with the most stable OS I could get my hands on. I assume that&#8217;s Ubuntu&#8230;&#8203;we&#8217;ll see. It took a little while to get my Broadcom wifi card playing nicely, but having to do all that with the Antergos installation last time meant I knew I&#8217;d manage it.</p>
+</div>
+<div class="paragraph">
+<p>I have all my coding stuff set up, and I&#8217;m pretty happy with the new OS.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hello_open_source">Hello Open Source</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>One 'first' to celebrate my introduction to Ubuntu: I have sent my first legitimate Pull Request to a Github repo. I tried to install a utility for monitoring my bandwidth quota and it was broken. I poked around in the source code to try to fix it and discovered what was wrong. I got a little hotfix working on my machine, so I figured I&#8217;d send the changes to the original repo owner as a PR. If this PR gets accepted, it will be my first ever, real coding contribution to opensource!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Not much coding recently, with all the computer repair I&#8217;ve been doing. There was today&#8217;s opensource contribution, but I felt like I needed a better challenge before calling it a night. I took another crack at the FCC Validating US phone numbers algortihm challenge. I fired up <a href="http://regex101.com" class="bare">http://regex101.com</a> and methodically added each test FCC wanted me to pass, modifying the RE as I went. It took a while, but that incremental approach paid off and I managed to pass the challenge. That was my first successful 'advanced' algorithm from the FCC challenges, so it feels good to have made a dent in those.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/19/Day-00011000.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/19/Day-00011000.html</guid><category><![CDATA[linux]]></category><category><![CDATA[ windows]]></category><category><![CDATA[ algorithms]]></category><category><![CDATA[ open source]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Fri, 19 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00010110 and 00010111]]></title><description><![CDATA[<div class="paragraph">
+<p>Urgh!</p>
+</div>
+<div class="paragraph">
+<p>Yesterday was horrid. I have been trying to get my Camper Leaderboard to read from an API instead of a mock file and I was having all sorts of problems understanding RxJS Observables. I spent about three hours reading the HTTP section of the Angular2 docs and trying to implement the necessary changes, but I had to give up in the end.</p>
+</div>
+<div class="paragraph">
+<p>During the middle of the night while letting the dog out for a pee I had a mini epiphany that I shouldn&#8217;t trust my assumptions that the data abject I was requesting would be the same as the one in the tutorial, or similar to the mock one I had. This turned out to be a blind alley, but at least it motivated me to continue working on it the next day.</p>
+</div>
+<div class="paragraph">
+<p>With renewed courage I deleted all of the previous night&#8217;s code and reverted to the last git commit (Thank you Jesus for Git), and went about methodically rewriting my code on a new branch (first time for that, too!). First I tried to get the camper.service to work with Promises while reading from the mock file. That worked, and it emboldened me to continue with Observables again.</p>
+</div>
+<div class="paragraph">
+<p>I hit a small bump with needing to 'provide' the Http, but this SO answer set me straight: <a href="http://stackoverflow.com/questions/33721276/angular-2-no-provider-for-http" class="bare">http://stackoverflow.com/questions/33721276/angular-2-no-provider-for-http</a> .</p>
+</div>
+<div class="paragraph">
+<p>After that, the only other problem was that I was copying the Angular Docs example for the extractData method verbatim&#8230;&#8203;my midnight epiphany was right in this regard. Once I stopped trying to read from <code>body.data</code> and just read from <code>body</code> it worked!</p>
+</div>
+<div class="paragraph">
+<p>I finally successfully merged the feature branch back into master and can wash my hands of the whole experience :)</p>
+</div>
+<div class="paragraph">
+<p>The next challenge will be to allow for the table data to switch between 'recent' and 'alltime' scores. I think I&#8217;ll use routing for that, but we shall see&#8230;&#8203;</p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/12/Days-00010110-and-00010111.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/12/Days-00010110-and-00010111.html</guid><category><![CDATA[Angular2]]></category><category><![CDATA[ RxJS]]></category><category><![CDATA[ Observables]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Fri, 12 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00010101]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Very simple today: just doing some straightforward CSS work on the Camper table. I intended to implement the HTTP requests to get live data from an API, but the way that is done in Angular2 is a fair bit more complicated than the typical jQuery $ajax call. I need to read up on it more thoroughly, so I&#8217;ll just call it a night for now.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/10/Day-00010101.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/10/Day-00010101.html</guid><category><![CDATA[Angular2]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Wed, 10 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00010100]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I fancied an easy day after the last two days of trying to wrangle Angular2, so I&#8217;ve been fixing up some of the more egregious design choices in my previous projects. I actually used media queries for the first time properly as a result, so I feel like a real CSS coder :)</p>
+</div>
+<div class="paragraph">
+<p>I also mocked out the dumb part of the camper table. This was the easy bit in React&#8230;&#8203;tomorrow I try reading from an API to feed the table, which is the point where React and I divorced. It&#8217;ll be interesting to see how that goes&#8230;&#8203;</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/09/Day-00010100.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/09/Day-00010100.html</guid><category><![CDATA[portfolio]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Tue, 09 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00010010 and 00010011]]></title><description><![CDATA[<div class="paragraph">
+<p>The last couple of days have seen me working on the Markdown Previewer in Angular2.</p>
+</div>
+<div class="paragraph">
+<p>I said last time that it should be easy, since it was so easy in React and it&#8217;s just a simple textarea bound to an output area on the screen.</p>
+</div>
+<div class="paragraph">
+<p>I was sorta right. Implementing the app itself was relatively easy, although Angular2 best practices depend on you using <a href="https://angular.io/docs/ts/latest/guide/pipes.html">Pipes</a> instead of just wrapping <code>marked()</code> around the output text as I did in React.</p>
+</div>
+<div class="paragraph">
+<p>Getting a third party module to work in Angular2 is non-trivial, until you start to understand all of the related elements the wire everything up behind the scenes.</p>
+</div>
+<div class="paragraph">
+<p>Getting <code>marked</code> imported and running took hours of reading and troubleshooting. I am still new to having any build steps in my workflow - everything up until now has been simply a save-push-refresh kinda thing. So realising that all the stuff in the system-config.js file needs to be wired up appropriately to tell the build tools where imported modules live, for example, was new to me.</p>
+</div>
+<div class="paragraph">
+<p>I eventually got everything running and thought I was done, but then when I tried hosting it on GitHub Pages I ran into some new problems. I naively thought I could just push the whole node_modules folder up and everything would just work, but it was not that easy.</p>
+</div>
+<div class="paragraph">
+<p>Luckily, Angular Cli exists and includes a 'simple' one line solution to deploying to gh-pages.</p>
+</div>
+<div class="paragraph">
+<p>Unluckily, I needed to restart the whole project with Angular Cli, since I was building it based on the Quickstart template from the turorial. Angular Cli introduces a whole bunch of extra build steps and modules that were causing more problems.</p>
+</div>
+<div class="paragraph">
+<p>I eventually narrowed my main problems down to a bad install, which could be because I previously had a botched install of Ember Cli on my system.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, that messed with my previous Marked install as well, so I had to jump through a whole new set of hoops for that.</p>
+</div>
+<div class="paragraph">
+<p>When I finally got it working locally, I still couldn&#8217;t push to gh-pages, because apparently you can&#8217;t have <code>ng serve</code> running while you build. And then I also had issues that meant I had to manually delete the <code>Dist</code> folder.</p>
+</div>
+<div class="paragraph">
+<p>Long story short, I finally, after 2 days, managed to implement the Markdown Previewer and run it on gh-pages:</p>
+</div>
+<div class="paragraph">
+<p>See the fruit of my efforts here: <a href="http://hacksonbates.me/ng-markdown">Ng Markdown Previewer</a></p>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/08/Days-00010010-and-00010011.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/08/Days-00010010-and-00010011.html</guid><category><![CDATA[Angular]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 08 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00010001]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_yesterday_s_coding">Yesterday&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I finished the Tour of Heroes tutorial yesterday. I noticed while writing out the code that there were a couple of times the tutorial missed a tiny detail that broke the code.</p>
+</div>
+<div class="paragraph">
+<p>One example of this related directly to Typescript, and trying to reason it out actually helped me understand what was happening in the TS a little better. I didn&#8217;t bother to learn any TS prior to starting the tutorial, as I figured just seeing it happen in the wild would be enough to trigger some sort of code-osmosis. It was quite as straightforward as that, but I have been intuitively picking up some things as I go.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, the problem&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>I switched VS Code as my editor after a month on Atom just to see how it felt in comparison. One thing I really like about VS Code is the 'problem' reporting (this may be in Atom as well, but not quite as helpful when using ES5/6 maybe?).</p>
+</div>
+<div class="paragraph">
+<p>After faithfully copying code across from the HTTP section, I was met with the following:</p>
+</div>
+<div class="paragraph">
+<p><code>Property 'addingHero' does not exist on type 'HeroesComponent'</code></p>
+</div>
+<div class="paragraph">
+<p>I looked at the top of the component in question and saw this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-typescript" data-lang="typescript">heroes: Hero[];
+selectedHero: Hero;
+error: any;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>So I figured I needed to add the addingHero property with these properties. I tried <code>addingHero: any</code> first, and that did quieten the problem reporting. However I had a suspicion that my lucky guess could be improved. I tried <code>addingHero: Hero</code> too, and got the problem report: <code>Type 'boolean' is not assignable to type 'Hero'</code>. This clue helped me to realise that <code>Hero[]</code>, <code>Hero</code>, and <code>any</code> were <em>types</em> (hence <strong>typescript</strong> <em>facepalm</em>). So I changed it more confidently to <code>addingHero: Boolean</code> and learned something about TS syntax in the process.</p>
+</div>
+<div class="paragraph">
+<p>When I got to the end of the tutorial and saw the finished code file, I noticed that what I was actually expected to do there was write <code>addingHero = false</code>. So I don&#8217;t yet know if that both creates the variable, establishes its type and sets the value in a nice and scoped way, or if it was predefined elsewhere, or if it&#8217;s somehow in the global scope and may cause issues down the track&#8230;&#8203;but it is in the official documentation from the ng team, so I guess it&#8217;s best practice! It&#8217;s clear that I have lots more to learn about TS, anyway.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_next">What next?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Angular2 feels both <em>harder</em> and more <em>satisfying</em> than React. Keeping all the different new concepts in my head is proving hard. I can&#8217;t really say with any confidence what directives and services are, but the templating and styling stuff makes sense to me.</p>
+</div>
+<div class="paragraph">
+<p>I think the next step is to return to the FCC projects that require React and try to implement them with ng. The Markdown previewer was dead easy in React, so presumably it should also be easy in ng. I only really need to understand event binding and templating, and that was covered in the early portion of the TOH tutorial.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/05/Day-00010001.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/05/Day-00010001.html</guid><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Fri, 05 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00010000]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>More of the same - still drinking from the firehose.</p>
+</div>
+<div class="paragraph">
+<p>I am looking forward to finishing this tutorial so I can see if any of this has stuck at all!</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/03/Day-00010000.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/03/Day-00010000.html</guid><category><![CDATA[Angular]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Wed, 03 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00001111]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Pretty straightforward today: still grinding thought the Angular Tour of Heroes tutorial.
+It&#8217;s pretty complicated at the moment, with the introduction of services, directives and routes, but I&#8217;m hoping with a little more reading around and trying it out in a personal projects without the tutorial training wheels on it will start to make more sense.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/02/Day-00001111.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/02/Day-00001111.html</guid><category><![CDATA[Angular]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Tue, 02 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00001101 and 00001110]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_linux_woes">Linux woes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve had some issues with Antergos Linux after updating the kernel and finding that it nuked my wifi card. I&#8217;m all for learning how to bounce back from that, but it&#8217;s really eating into my productivity to have to spend so much time troubleshooting and finding similar semi-solved issues on the Arch forum. So for the time being, I&#8217;ve reverted to Windows 10 so I can just keep my focus on coding.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_react_woes">React woes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Speaking of productivity, I have also put React on the back-burner. Plenty of people suggest that one of the great things about React is that it just gets out of your way&#8230;&#8203;that could not be further from my experience. I&#8217;ve decided to try out Angular 2 for now, and if I don&#8217;t like the feel of that, I&#8217;m willing to try out Ember as well. I want to learn one framework/library well, and want the one that I can get most excited about - right now that is not React&#8230;&#8203;</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_coding">The coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>So the past couple of days have been spent working through some Angular tutorials. The component structure is not a million miles away from React, so some of the initial friction has probably been lessened. I am also having to pick up a little Typescript as I go, but that has been fine so far. My first impression is that it feels both a little more alien, with the odd XML-ish Angular custom syntax, but also a little more intuitive as well. I feel a little more productive, but the real test will be when I try to implement  the Camper Leaderboard I couldn&#8217;t bring myself to finish in React.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/08/01/Days-00001101-and-00001110.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/08/01/Days-00001101-and-00001110.html</guid><category><![CDATA[antergos]]></category><category><![CDATA[ angular2]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 01 Aug 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00001100]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Another cheat day today. I couldn&#8217;t be bothered with React, and someone made a really simple API for the quote generator project. I fancied playing with it to see if my callback chops have gotten any better (they have).</p>
+</div>
+<div class="paragraph">
+<p>The pen can be found here: <a href="http://codepen.io/Malgalin/full/vKABrY/" class="bare">http://codepen.io/Malgalin/full/vKABrY/</a></p>
+</div>
+<div class="paragraph">
+<p>I am now going to investigate the banging noise downstairs.</p>
+</div>
+<div class="paragraph">
+<p>If I do not post tomorrow, avenge my death.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/26/Day-00001100.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/26/Day-00001100.html</guid><category><![CDATA[cheat day]]></category><category><![CDATA[ api]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Tue, 26 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00001010 and 00001011]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_the_coding">The coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The last couple of days have been characterised by more banging my head against React. I have managed to have a table correctly populated, solving the previous day&#8217;s problem, and I have even managed to read the data from an API and have that populate the table, too.</p>
+</div>
+<div class="paragraph">
+<p>However, the code for that final solution smells a little callback-hellish to me, and I am sure there is probably a better way to do it.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_offending_code">The offending code</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">let APICampers = [];
+
+fetch('https://fcctop100.herokuapp.com/api/fccusers/top/recent')
+.then((response) =&gt; response.json())
+.then((data) =&gt; APICampers = data)
+.then(() =&gt; {
+  for (let i = 0; i &lt; APICampers.length; i++) {
+    APICampers[i]["rank"] = i + 1;
+  };
+})
+.then(() =&gt; {
+  const app = document.getElementById('app');
+  ReactDOM.render(&lt;CamperTable campers={APICampers} /&gt;, app);
+});</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>While this works, I suspect that putting</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">const app = document.getElementById('app');
+ReactDOM.render(&lt;CamperTable campers={APICampers} /&gt;, app);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>at the end of a chain of Promises is bad practice. I don&#8217;t know enough about Promises to know for sure, but I also suspect that rendering the APICampers array into the CamperTable the way I have will cause problems when I want to show the list ordered by the 'all-time' score rather than the recent score.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_why_fetch">Why fetch()?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I also think that <code>fetch()</code> is not necessarily the best tool for what I want to do. I tried using the <code>request</code> module from NPM, but that was not playing nicely with Babel and Webpack. I then also tried the <code>react-ajax</code> module, but I found that too confusing to use - the documentation is pretty light and it probably assumes better fluency with React.</p>
+</div>
+<div class="paragraph">
+<p>So for now I&#8217;m stuck with an unsatisfactory <code>fetch()</code> while I try and figure out how to do a better http request&#8230;&#8203;</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tomorrow_s_coding">Tomorrow&#8217;s Coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>More research into fixing my async woes&#8230;&#8203;</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/25/Days-00001010-and-00001011.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/25/Days-00001010-and-00001011.html</guid><category><![CDATA[React]]></category><category><![CDATA[ async woes]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 25 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00001001]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>More of the same. Still working on the Camper leaderboard, and I&#8217;ve had some success with making static components that can spit out table elements, headers, and rows, but I&#8217;m struggling with reading data from an array of objects to populate that table. If I can do that, the next step will be to use the API to get the data.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m comparing my approach to that of the video series I&#8217;ve been watching, but I&#8217;m still unsure of how props and state fit in to all this, and I thing that might be the key idea I&#8217;m missing.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, that&#8217;s enough for tonight. More tomorrow&#8230;&#8203;</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/21/Day-00001001.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/21/Day-00001001.html</guid><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Thu, 21 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00001000]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Today was just some boring grunt work getting my next project set up: the FCC Camper Leaderboard, using React. I also watched more of the tutorial series about React, but I&#8217;m yet to put any of it into practice.</p>
+</div>
+<div class="paragraph">
+<p>While today&#8217;s work was just retreading old ground, I am feeling a bit more confident about working with React. Tomorrow&#8217;s challenge will be to pull data from an API and have it render in React. I think I heard on some podcast that React and jQuery don&#8217;t place super well together, so I may have to learn to do the HTTP request using a different method to the <code>$.ajax</code> or <code>$.getJSON</code> I&#8217;m used to.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+I was in a foul mood today, and it may be the lack of sleep causing it. So, off to bed, now, for my health&#8217;s sake :)
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/20/Day-00001000.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/20/Day-00001000.html</guid><category><![CDATA[React]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Wed, 20 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00000111]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I decided to go ahead and see how easy it would be to implement the markdown parser suggested on the FCC Markdown Previewer project page, and it turned out to be quite easy. The marked module does all the md parsing, so all I have to figure out was where to put it and how to get it to render the actual visual output and not just the raw HTML. I admit that I had to check Stack Overflow for the answer to that, but once I found the answer, it was pretty straight forward.</p>
+</div>
+<div class="paragraph">
+<p>So my Markdown previewer is live: <a href="http://jacksonbates.me/react-beginner/src/">React Markdown Previewer</a>.</p>
+</div>
+<div class="paragraph">
+<p>It&#8217;s rough around the edges, and could use some styling, but since FCC wants us to use SASS for the styling and I don&#8217;t want to overload on that yet, I won&#8217;t mark it complete. Today&#8217;s implementation took about 1 hour, but obviously that only includes the parser ability being added to the text area and 'mirror' section, as well as the push to gh-pages.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tomorrow_s_coding">Tomorrow&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>More React, I guess&#8230;&#8203;</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/19/Day-00000111.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/19/Day-00000111.html</guid><category><![CDATA[React]]></category><category><![CDATA[ markdown]]></category><category><![CDATA[ FCC Project]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Tue, 19 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00000110]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve been pretty unmotivated with React still, but have perservered a little to knock up a simple toy app that replays the text that is typed into a <code>&lt;textarea&gt;</code>. It essentially has exactly the same functionality as the first example app made in the tutorial series I&#8217;m watching, but I wrote it from scratch and moved the components around a little in the folder structure. I did have to lean on the example pretty heavily, so I can&#8217;t claim much credit, but it has at least given me a start.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tomorrow_s_coding">Tomorrow&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The thing I made today is actually part of the way towards completing the first FCC React challenge: <a href="https://www.freecodecamp.com/challenges/build-a-markdown-previewer">Building a Markdown Previewer</a>. This means I&#8217;m at a little fork in the road. I can either try to implement the Markdown parsing and try to complete the challenge, or I can continue learning more React so that I can better understand what I&#8217;m actually doing.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_my_problem_with_react">My problem with React</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I think the reason I have struggled with React so far has been it&#8217;s similarity to Classes in Python. I really struggled to get Classes in Python, so meeting something similar in JavaScript has taken the wind out of my sails a little. In this context, though, they are making a little more sense, so I am hoping that if I perserver just a little more then I might actually end up doing a better job in Python as well as JS. Very oddly, the <code>this</code> syntax in JS has kinda helped make the <code>self</code> syntax from Python a little clearer.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/18/Day-00000110.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/18/Day-00000110.html</guid><category><![CDATA[React]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Mon, 18 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Days 00000100 && 00000101]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_the_coding">The coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The last two days have been 'cheat days' of a sort. I&#8217;ve spent a little time helping put out spot fires on the FreeCodeCamp forums when simple issues have arisen, but the bulk of my designated coding time has been spent setting up a new Linux workspace.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ve used a few distros in the past, so I was keen to try something new and to learn some new things, and thought I&#8217;d give Arch a crack.</p>
+</div>
+<div class="paragraph">
+<p>I was originally going to take the easy route and use Evo/Lution (or Makeiso, as it is called now) to install Arch (hardly the Arch Way, I know), but I was having trouble with getting it to work as a live usb. So I did try to install Arch. I made the mistake of beginning that quite late at night, though, and in the morning it had lost its appeal!</p>
+</div>
+<div class="paragraph">
+<p>Enter Antergos.</p>
+</div>
+<div class="paragraph">
+<p>I hadn&#8217;t heard of Antergos before, but someone mentioned it as an easier alternative on the Melbourne FreeCodeCamp Slack channel for out meet-up group. It offered the installer approach I was looking for in Makeiso, so it seemed a slam dunk.</p>
+</div>
+<div class="paragraph">
+<p>The thing with installers, though, is that just because they provide you with a GUI and some automated scripts, it doesn&#8217;t mean you don&#8217;t have to know what you are doing.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_problem">The problem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I muddled my way through the incredibly long installation process and everything seemed fine. I&#8217;m dual booting, so when I saw the GRUB loader menu offering Antergos and Windows 10 I assumed everything was completed.</p>
+</div>
+<div class="paragraph">
+<p>When I selected my new Linux setup, though, after a few moments of generic screen tett output I was met with a blinking, non-responsive cursor. At first I just thought it was taking a while to load and not reporting on its processes, but after a few minutes it became clear that this was my new development environment. Google and some Arch / Antergos forums informed me it was likely a problem caused by Nvidia proprietary drivers.</p>
+</div>
+<div class="paragraph">
+<p>I managed to boot up the non-desktop version with <code>ctrl + alt + F2</code> but all of the advice for getting the right drivers did nothing to help me. It seemed that starting again with a clean install guided by the docs was the way to go.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_solution">The solution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In the end I bit the bullet and went through another hour-long install, this time painstakingly double checking every setting against whatever Google could offer me. It turns out the offending setting was the option to install proprietary drivers. Apparently <em>NOT</em> installing the drivers designed for you Nvidia card is a better solution than installing them. So there you go. Sometimes the opposite thing to the most intuitively obvious solution is the real solution.</p>
+</div>
+<div class="paragraph">
+<p>Anyway, it&#8217;s all running smoothly now. I&#8217;ve got node, npm, atom and some other goodies installed, som hopefully I can get some productive coding done tomorrow.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/16/Days-00000100-00000101.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/16/Days-00000100-00000101.html</guid><category><![CDATA[linux]]></category><category><![CDATA[ arch]]></category><category><![CDATA[ antergos]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Sat, 16 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00000011]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve been making some progress with the React stuff, but it&#8217;s been a little light on actual coding at the moment. It&#8217;s mostly watching videos and confirming that the stuff the presenter says is in the video is present in the provided files.</p>
+</div>
+<div class="paragraph">
+<p>So to get a little coding fix, I took on a problem someone was having with their own webpage to see if I could fix it.</p>
+</div>
+<div class="sect2">
+<h3 id="_the_problem">The problem</h3>
+<div class="paragraph">
+<p>A page that had loaded both Bootstrap and jQuery correctly, and the same smooth scroll script I used the other day, was showing an unwanted white underline on active links during the scroll animation. The guy who wrote the original code assumed that either the Bootstrap or jQuery scripts were overwriting the style.css he wrote.</p>
+</div>
+<div class="paragraph">
+<p>I tried a few hunches out first, but kept coming up stumped. He&#8217;d already done all the right things in his style script to set the link text-decorators appropriately (or so I thought), so I tried to be a little more methodical in my debugging.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_method">The method</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Load the page and open the browser inspector tools.</p>
+</li>
+<li>
+<p>Select the element to examine: the About link.</p>
+</li>
+<li>
+<p>Locate the right hand pane of the elements tab in the inspector (Chrome), it lists all of the styles affecting the element.</p>
+</li>
+<li>
+<p>In the filter bar above, serch for the term causing issues. In this case 'underline'</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>This was the search result:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>    a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>and said it was coming from the 'user-agent-stylesheet', which is the base level css used by the browser to apply default styles. Incidentally, I just learned that on a Shop Talk Show rapid fire podcast in which this exact scenario was raised. Spooky.</p>
+</div>
+<div class="paragraph">
+<p>I copied that into the style.css file and changed text-decoration to none, and it worked.</p>
+</div>
+<div class="paragraph">
+<p>Now, this fix may only work in web-kit browsers though, so to solve the issue completely, I&#8217;d likely have to test in other browsers and apply fixes with the other appropriate vendor prefixes.</p>
+</div>
+<div class="paragraph">
+<p>This was a pretty simple problem, but it taught me to be more methodological when tracking down bugs and to check each of my assumptions carefully. I assumed that the way the text-decoration was handled in the style.css would be enough, but it wasn&#8217;t until I actully looked carefully at what was really happening that I could see why that assumption was wrong.</p>
+</div>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/14/Day-00000011.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/14/Day-00000011.html</guid><category><![CDATA[css]]></category><category><![CDATA[ user-agent style sheets]]></category><category><![CDATA[ problem solving]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Thu, 14 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day 00000010]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_smooth_scrolling_fix">Smooth Scrolling fix</h3>
+<div class="paragraph">
+<p>I still had a problem to solve from yesterday: how to fix the smooth scrolling to the top of the page?</p>
+</div>
+<div class="paragraph">
+<p>The solution was simple, but that doesn&#8217;t mean I found it straight away! You may already know that a <code>href='#top'</code> will automatically link to the top of the webpage without any explicit references to it on the page&#8230;&#8203;but did you know that the <a href="https://css-tricks.com/snippets/jquery/smooth-scrolling/">smooth scroll</a> snippet I linked to yesterday <em>does</em> require that reference on the page? Well you do now. I added <code>&lt;a id="top"&gt;&lt;/a&gt;</code> just under the nav bar and the smooth scrolling implemented perfectly.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Read your jQuery snippets collected from the corner of the web to look for clues!
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_beginning_react">Beginning React</h3>
+<div class="paragraph">
+<p>I&#8217;ll be honest - starting React has felt pretty imposing. I think the reason I ported all my old projects over to GitHub pages and set up this blog was to postpone starting React!</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m working through the LearnCode.academy <a href="https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b">ReactJS Tutorials</a> series on YouTube.</p>
+</div>
+<div class="paragraph">
+<p>Today I got the repo cloned, got webpack working, and ran the basic 'Hello, world' stuff from the first video.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tomorrow_s_coding">Tomorrow&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We will see what the video series has in store, I guess. It looks like it&#8217;s going to be about components - which as I understand it is the main concept in React.</p>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/13/Day-00000010.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/13/Day-00000010.html</guid><category><![CDATA[jQuery]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Wed, 13 Jul 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[01100100 Days of Code: Day 00000001]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>I have been working through <a href="http://freecodecamp.com">Free Code Camp</a> for a few months now, but have recently decided to commit to the 100 Days of Code challenge.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ve been pretty consistently putting in a couple of hours a night anyway, but keeping a record as I learn more should help me stay on track. All my progress up until this point can be seen at my <a href="http://jacksonbates.me">portfolio</a> (modified from an early FCC project, naturally). I&#8217;ve completed the Front End pathway, and the API / Microservice section of the Back End pathway. I feel like mixing things up now, so maybe some React is in order?</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_today_s_coding">Today&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The last couple of days have seen me port my portfolio over to Bootstrap 4 (alpha) and set up all of my previous projects as GitHub pages. Today, I added this Hubpress blog to my GitHub pages set up.</p>
+</div>
+<div class="paragraph">
+<p>I nearly went with a Jekyll based blog solution, but the theme I loved was going to need me to learn Gulp and get Ruby working on my Windows machine&#8230;&#8203;I thought I&#8217;d spend all my time on that, so opted for a pretty nice GUI based gh-pages blog instead. Ta da!</p>
+</div>
+<div class="paragraph">
+<p>My real coding challenge for the evening, though, was to implement smooth scrolling on my portfolio. Thanks to CSS Tricks, I was able to get a 90% solution rolled out in minutes with the code snippet here: <a href="https://css-tricks.com/snippets/jquery/smooth-scrolling/" class="bare">https://css-tricks.com/snippets/jquery/smooth-scrolling/</a>, but I am having some trouble with the smooth scroll returning to the <code>#top</code> anchor.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tomorrow_s_coding">Tomorrow&#8217;s coding</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Fix the <code>#top</code> smooth scroll issue;</p>
+</li>
+<li>
+<p>Start learning React for the FCC Data Viz pathway.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>]]></description><link>https://JacksonBates.github.io/blog/2016/07/12/01100100-Days-of-Code-Day-00000001.html</link><guid isPermaLink="true">https://JacksonBates.github.io/blog/2016/07/12/01100100-Days-of-Code-Day-00000001.html</guid><category><![CDATA[#100daysOfCode]]></category><category><![CDATA[ hubpress]]></category><category><![CDATA[ jQuery]]></category><dc:creator><![CDATA[Jackson Bates]]></dc:creator><pubDate>Tue, 12 Jul 2016 00:00:00 GMT</pubDate></item></channel></rss>
