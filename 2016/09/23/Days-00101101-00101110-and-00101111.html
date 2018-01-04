@@ -13,16 +13,17 @@
     <link rel="shortcut icon" href="https://JacksonBates.github.io/blog/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic|Open+Sans:400italic,700italic,700,400">
-    <link rel="stylesheet" type="text/css" href="//JacksonBates.github.io/blog/themes/roon/assets/css/screen.css?v=1474638670907" />
+    <link rel="stylesheet" type="text/css" href="//JacksonBates.github.io/blog/themes/roon/assets/css/screen.css?v=1515067762133" />
 
     <link rel="canonical" href="https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html" />
     <meta name="referrer" content="origin" />
     
     <meta property="og:site_name" content="Adventures in Code" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:title" content="Days 00101101, 00101110, and 00101111" />
     <meta property="og:description" content="Urgh! The last few days have been some of the most shamefully hacky days of my coding ventures. I&amp;#8217;ve been implementing the &#x27;1 Going&#x27; button, which responds to clicks by registering the user&amp;#8217;s intention to go to the venue or not, and updates the button label" />
     <meta property="og:url" content="https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html" />
+    <meta property="article:published_time" content="2016-09-23T00:00:00.000Z" />
     <meta property="article:tag" content="nightlife coordination" />
     
     <meta name="twitter:card" content="summary" />
@@ -31,11 +32,31 @@
     <meta name="twitter:url" content="https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html" />
     
     <script type="application/ld+json">
-null
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Adventures in Code",
+    "author": {
+        "@type": "Person",
+        "name": "Jackson Bates",
+        "image": "https://avatars2.githubusercontent.com/u/4337740?v=4",
+        "url": "https://JacksonBates.github.io/blog/author/JacksonBates/",
+        "sameAs": "http://jacksonbates.github.io",
+        "description": "(Portfolio currently borked! Check back soon)\r\nWeb developer, based in Melbourne.\r\n\r\n"
+    },
+    "headline": "Days 00101101, 00101110, and 00101111",
+    "url": "https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html",
+    "datePublished": "2016-09-23T00:00:00.000Z",
+    "keywords": "nightlife coordination",
+    "description": "Urgh! The last few days have been some of the most shamefully hacky days of my coding ventures. I&amp;#8217;ve been implementing the &#x27;1 Going&#x27; button, which responds to clicks by registering the user&amp;#8217;s intention to go to the venue or not, and updates the button label"
+}
     </script>
 
     <meta name="generator" content="HubPress" />
     <link rel="alternate" type="application/rss+xml" title="Adventures in Code" href="https://JacksonBates.github.io/blog/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 </head>
 <body class="post-template tag-nightlife-coordination  noimage">
 
@@ -45,7 +66,7 @@ null
     <article role="main" class="">
         <header>
             <a href="https://JacksonBates.github.io/blog" id="home_link">«</a>
-            <div class="meta"><time datetime="2016-09-23"><a href="https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html">September 23, 2016</a></time> <span class="count" id="js-reading-time"></span></div>
+            <div class="meta"><time datetime="2016-09-23"><a href="/">September 23, 2016</a></time> <span class="count" id="js-reading-time"></span></div>
             <h1>Days 00101101, 00101110, and 00101111</h1>
         </header>
 
@@ -81,7 +102,7 @@ null
                 <span aria-hidden="true" data-icon="S"></span>
                 <strong>Share</strong>
             </a>
-            <a href="http://twitter.com/share?text=Days%2000101101%2C%2000101110%2C%20and%2000101111&url=https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
+            <a href="http://twitter.com/share?text=Days%2000101101%2C%2000101110%2C%20and%2000101111&url=https://JacksonBates.github.io/blog/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
                 <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
             </a>
         </menu>
@@ -90,27 +111,28 @@ null
         <footer class="post-footer" role="contentinfo">
 
             <div class="vcard">
-                <!-- <a href="https://JacksonBates.github.io/blog/rss" id="btn_feed" class="btn" title="Feed" target="_blank">
+                <a href="https://JacksonBates.github.io/blog/rss" id="btn_feed" class="btn" title="Feed" target="_blank">
                     <span aria-hidden="true" data-icon=")"></span>
                     <strong>Feed</strong>
-                </a> -->
+                </a>
 
                 <a href="https://JacksonBates.github.io/blog/author/JacksonBates/" class="photo">
-                    <span style="background-image: url('https://avatars.githubusercontent.com/u/4337740?v&#x3D;3');">
-                        <img src="https://avatars.githubusercontent.com/u/4337740?v&#x3D;3" alt="Jackson Bates">
+                    <span style="background-image: url('https://avatars2.githubusercontent.com/u/4337740?v&#x3D;4');">
+                        <img src="https://avatars2.githubusercontent.com/u/4337740?v&#x3D;4" alt="Jackson Bates">
                     </span>
                 </a>
 
                 <div class="details">
                     <h4><a href="https://JacksonBates.github.io/blog/author/JacksonBates/" class="url n">Jackson Bates</a></h4>
                     Melbourne, Australia<br>
-                    <a href="http://jacksonbates.me" class="js-remove-domain-schema">http://jacksonbates.me</a>
+                    <a href="http://jacksonbates.github.io" class="js-remove-domain-schema">http://jacksonbates.github.io</a>
                 </div>
             </div>
 
             <div id="user_bio">
                 <div class="inner">
-                    A teacher and aspiring web developer, based in Melbourne.
+                    (Portfolio currently borked! Check back soon)
+Web developer, based in Melbourne.
 
 
                 </div>
@@ -164,7 +186,7 @@ null
                     </div>
 
                     <div id="pinit-btn">
-                        <a href="//pinterest.com/pin/create/button/?url=https://JacksonBates.github.io/blog/2016/09/23/Days-00101101-00101110-and-00101111.html&amp;description=Days%2000101101%2C%2000101110%2C%20and%2000101111-Adventures%20in%20Code " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
+                        <a href="//pinterest.com/pin/create/button/?url=https://JacksonBates.github.io/blog/&amp;description=Days%2000101101%2C%2000101110%2C%20and%2000101111-Adventures%20in%20Code " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
                         <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
                     </div>
                 </div>
@@ -220,7 +242,7 @@ null
         }
     </script>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
           // change date with ago
