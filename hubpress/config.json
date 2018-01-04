@@ -17,5 +17,21 @@
   },
   "theme": {
     "name": "roon"
+  },
+  "urls": {
+    "site": "https://JacksonBates.github.io/blog",
+    "hubpress": "https://jacksonbates.github.io/blog",
+    "theme": "//JacksonBates.github.io/blog/themes/roon",
+    "images": "https://JacksonBates.github.io/blog/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
   }
 }
